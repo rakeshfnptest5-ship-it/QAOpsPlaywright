@@ -5,8 +5,7 @@ test("playwright special locators", async ({ page }) => {
     await page.goto("https://rahulshettyacademy.com/angularpractice/");
     await page.getByLabel("Check me out if you Love IceCreams!").click();
     await page.getByLabel("Employed").click();
-    await page.getByLabel("Student").check();
-    await page.getByPlaceholder("Password").fill("123456ABCD");
+    await page.getByLabel("Student").check();ge.getByPlaceholder("Password").fill("123456ABCD");
     await page.getByRole("button", { name: "Submit" }).click();
     await expect(page.getByText("Success! The Form has been submitted successfully!."))
       .toBeVisible();
