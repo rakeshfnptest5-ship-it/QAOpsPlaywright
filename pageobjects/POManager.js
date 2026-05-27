@@ -1,0 +1,19 @@
+const {LoginPage} = require('./LoginPage');
+const {DashboardPage} = require('./DashboardPage');
+class POManager {
+    constructor(page) {
+        this.page = page;
+        this.loginPage = new LoginPage(page);
+        this.dashboardPage = new DashboardPage(page);
+    }
+
+    get LoginPage() {
+        return this.loginPage;
+    }
+
+    get DashboardPage() {
+        return this.dashboardPage;
+    }
+}
+
+module.exports = { POManager };
