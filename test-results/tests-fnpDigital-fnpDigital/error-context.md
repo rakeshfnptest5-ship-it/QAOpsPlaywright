@@ -1,0 +1,3227 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: tests\fnpDigital.spec.js >> fnpDigital
+- Location: tests\fnpDigital.spec.js:204:1
+
+# Error details
+
+```
+Error: Could not select any delivery date
+```
+
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - main [ref=e3]:
+      - generic:
+        - img "Free Delivery Banner" [ref=e8]
+        - generic [ref=e9]:
+          - generic [ref=e10]:
+            - generic [ref=e11]:
+              - generic [ref=e12]:
+                - link "Ferns N Petals" [ref=e14] [cursor=pointer]:
+                  - /url: /
+                  - img "Ferns N Petals" [ref=e15]
+                - generic [ref=e20] [cursor=pointer]:
+                  - img "location-icon" [ref=e21]
+                  - generic [ref=e22]:
+                    - generic [ref=e24]: Where to deliver?
+                    - generic [ref=e26]:
+                      - generic [ref=e27]: Location missing
+                      - img "down_red_arrow" [ref=e28]
+              - generic [ref=e34]:
+                - generic:
+                  - generic:
+                    - img "search-bar-icon"
+                - textbox "search_bar" [ref=e35]:
+                  - /placeholder: Sending good luck plants or more
+            - generic [ref=e36]:
+              - link "desktop icons Same Day" [ref=e37] [cursor=pointer]:
+                - /url: /same-day-delivery-gifts-lp
+                - generic [ref=e38]:
+                  - img "desktop icons" [ref=e39]
+                  - generic [ref=e40]: Same Day
+              - button "INR" [ref=e43] [cursor=pointer]:
+                - img "INR" [ref=e45]
+                - generic [ref=e46]: INR
+              - link "desktop icons Corporate" [ref=e47] [cursor=pointer]:
+                - /url: /corporate/?promo=corporate_enquiry
+                - generic [ref=e48]:
+                  - img "desktop icons" [ref=e49]
+                  - generic [ref=e50]: Corporate
+              - button "Cart" [ref=e53] [cursor=pointer]:
+                - img "Cart" [ref=e55]
+                - generic [ref=e56]: Cart
+              - button "Hi Guest" [ref=e59] [cursor=pointer]:
+                - img "Hi Guest" [ref=e61]
+                - generic [ref=e62]: Hi Guest
+              - button "More" [ref=e65] [cursor=pointer]:
+                - img "More" [ref=e67]
+                - generic [ref=e68]: More
+          - generic [ref=e69]:
+            - navigation [ref=e70]:
+              - button "Birthday" [ref=e72] [cursor=pointer]:
+                - generic [ref=e73]: Birthday
+                - img "down-arrow" [ref=e75]
+              - generic [ref=e77]:
+                - generic [ref=e78]:
+                  - generic [ref=e79]: Must Haves
+                  - link "Gifts in 60 mins New" [ref=e80] [cursor=pointer]:
+                    - /url: /instant-delivery-gifts/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e81]:
+                      - generic [ref=e82]: Gifts in 60 mins
+                      - generic [ref=e83]: New
+                  - link "Cakes" [ref=e84] [cursor=pointer]:
+                    - /url: /cakes/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e86]: Cakes
+                  - link "Flowers" [ref=e87] [cursor=pointer]:
+                    - /url: /flowers/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e89]: Flowers
+                  - link "Flowers n Cakes" [ref=e90] [cursor=pointer]:
+                    - /url: /flowers-n-cakes/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e92]: Flowers n Cakes
+                  - link "Flowers n Chocolates" [ref=e93] [cursor=pointer]:
+                    - /url: /flowers-n-chocolates/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e95]: Flowers n Chocolates
+                  - link "Personalised Gifts" [ref=e96] [cursor=pointer]:
+                    - /url: /personalised-gifts/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e98]: Personalised Gifts
+                  - link "Plants" [ref=e99] [cursor=pointer]:
+                    - /url: /plants/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e101]: Plants
+                  - link "Combos" [ref=e102] [cursor=pointer]:
+                    - /url: /combos/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e104]: Combos
+                  - link "Chocolates" [ref=e105] [cursor=pointer]:
+                    - /url: /chocolates/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e107]: Chocolates
+                  - link "Gift Hampers" [ref=e108] [cursor=pointer]:
+                    - /url: /gift-hampers/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e110]: Gift Hampers
+                  - link "Greeting Cards" [ref=e111] [cursor=pointer]:
+                    - /url: /greeting-cards/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e113]: Greeting Cards
+                  - link "Hatke Gifts" [ref=e114] [cursor=pointer]:
+                    - /url: /hatke-gifts/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e116]: Hatke Gifts
+                - generic [ref=e117]:
+                  - generic [ref=e118]: Prime Picks
+                  - link "All Gifts" [ref=e119] [cursor=pointer]:
+                    - /url: /gifts/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e121]: All Gifts
+                  - link "Bestsellers" [ref=e122] [cursor=pointer]:
+                    - /url: /gifts-bestsellers/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e124]: Bestsellers
+                  - link "New Arrivals" [ref=e125] [cursor=pointer]:
+                    - /url: /new-arrival-gifts/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e127]: New Arrivals
+                  - link "LUXE Birthday New" [ref=e128] [cursor=pointer]:
+                    - /url: /fnpluxe-gifts/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e129]:
+                      - generic [ref=e130]: LUXE Birthday
+                      - generic [ref=e131]: New
+                  - link "Healthy Cakes New" [ref=e132] [cursor=pointer]:
+                    - /url: /healthy-cakes-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e133]:
+                      - generic [ref=e134]: Healthy Cakes
+                      - generic [ref=e135]: New
+                  - link "Zodiac Gifts" [ref=e136] [cursor=pointer]:
+                    - /url: /zodiac-gifts-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e138]: Zodiac Gifts
+                  - link "Premium Gifts" [ref=e139] [cursor=pointer]:
+                    - /url: /premium-gifts/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e141]: Premium Gifts
+                  - link "Unusual Gifts" [ref=e142] [cursor=pointer]:
+                    - /url: /unusual-gifts/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e144]: Unusual Gifts
+                  - link "Midnight Delivery" [ref=e145] [cursor=pointer]:
+                    - /url: /midnight-delivery-gifts/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e147]: Midnight Delivery
+                  - link "Return Gifts" [ref=e148] [cursor=pointer]:
+                    - /url: /return-gifts-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e150]: Return Gifts
+                  - link "Pet Gifts New" [ref=e151] [cursor=pointer]:
+                    - /url: /gifts/for-pets-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e152]:
+                      - generic [ref=e153]: Pet Gifts
+                      - generic [ref=e154]: New
+                - generic [ref=e155]:
+                  - generic [ref=e156]: Personal Picks
+                  - link "Plant Lover" [ref=e157] [cursor=pointer]:
+                    - /url: /gifts/birthday/nature-lovers-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e159]: Plant Lover
+                  - link "Wanderer" [ref=e160] [cursor=pointer]:
+                    - /url: /gifts/birthday/for-travel-lovers-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e162]: Wanderer
+                  - link "Foodies" [ref=e163] [cursor=pointer]:
+                    - /url: /gifts/birthday/for-foodie-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e165]: Foodies
+                  - link "Music Fan" [ref=e166] [cursor=pointer]:
+                    - /url: /gifts/birthday/for-music-lovers-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e168]: Music Fan
+                  - link "Fashionista" [ref=e169] [cursor=pointer]:
+                    - /url: /fashion-n-lifestyle/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e171]: Fashionista
+                - generic [ref=e172]:
+                  - generic [ref=e173]: Birthday Gifts For
+                  - link "Her" [ref=e174] [cursor=pointer]:
+                    - /url: /gifts/birthday/for-her-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e176]: Her
+                  - link "Him" [ref=e177] [cursor=pointer]:
+                    - /url: /gifts/birthday/for-him-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e179]: Him
+                  - link "Kids" [ref=e180] [cursor=pointer]:
+                    - /url: /gifts/birthday/for-kids-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e182]: Kids
+                  - link "Friends" [ref=e183] [cursor=pointer]:
+                    - /url: /gifts/for-friend-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e185]: Friends
+                  - link "Wife" [ref=e186] [cursor=pointer]:
+                    - /url: /gifts/birthday/for-wife-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e188]: Wife
+                  - link "Husband" [ref=e189] [cursor=pointer]:
+                    - /url: /gifts/birthday/for-husband-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e191]: Husband
+                  - link "Girlfriend" [ref=e192] [cursor=pointer]:
+                    - /url: /gifts/birthday/for-girlfriend-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e194]: Girlfriend
+                  - link "Boyfriend" [ref=e195] [cursor=pointer]:
+                    - /url: /gifts/birthday/for-boyfriend-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e197]: Boyfriend
+                  - link "Mother" [ref=e198] [cursor=pointer]:
+                    - /url: /gifts/birthday/for-mother-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e200]: Mother
+                  - link "Father" [ref=e201] [cursor=pointer]:
+                    - /url: /gifts/birthday/for-father-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e203]: Father
+                - generic [ref=e204]:
+                  - generic [ref=e205]: Age Perfect Gifts
+                  - link "1st Birthday" [ref=e206] [cursor=pointer]:
+                    - /url: /gifts/1st-birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e208]: 1st Birthday
+                  - link "10th Birthday" [ref=e209] [cursor=pointer]:
+                    - /url: /gifts/10th-birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e211]: 10th Birthday
+                  - link "18th Birthday" [ref=e212] [cursor=pointer]:
+                    - /url: /gifts/18th-birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e214]: 18th Birthday
+                  - link "50th Birthday" [ref=e215] [cursor=pointer]:
+                    - /url: /gifts/50th-birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e217]: 50th Birthday
+                - generic [ref=e218]:
+                  - generic [ref=e219]: Unique Gifting
+                  - link "Spiritual Gifts" [ref=e220] [cursor=pointer]:
+                    - /url: /spiritual-gifts/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e222]: Spiritual Gifts
+                  - link "Jewellery" [ref=e223] [cursor=pointer]:
+                    - /url: /jewellery/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e225]: Jewellery
+                  - link "Experiential Gifts" [ref=e226] [cursor=pointer]:
+                    - /url: /experiential-gifts/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e228]: Experiential Gifts
+                  - link "Electronics" [ref=e229] [cursor=pointer]:
+                    - /url: /electronics/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e231]: Electronics
+                  - link "Exotic Flowers" [ref=e232] [cursor=pointer]:
+                    - /url: /exotic-flowers/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e234]: Exotic Flowers
+                  - link "Toys n Games" [ref=e235] [cursor=pointer]:
+                    - /url: /toys-n-games/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e237]: Toys n Games
+                  - link "Balloon Decor" [ref=e238] [cursor=pointer]:
+                    - /url: /decoration-services/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e240]: Balloon Decor
+                  - link "Gifts n Guitarist" [ref=e241] [cursor=pointer]:
+                    - /url: /gifts-n-guitarist-service/birthday-lp?promo=birthdaymenu_dt_hm
+                    - generic [ref=e243]: Gifts n Guitarist
+                - generic [ref=e244]:
+                  - generic [ref=e245]: Price Wise Gifts
+                  - link "Rs 500 - Rs 1000" [ref=e246] [cursor=pointer]:
+                    - /url: /gifts/birthday-lp?promo=birthday_tab_dt_hmnfq=listprice%253A500.0%2520TO%2520999.0
+                    - generic [ref=e248]: Rs 500 - Rs 1000
+                  - link "Rs 1000 - Rs 2000" [ref=e249] [cursor=pointer]:
+                    - /url: /gifts/birthday-lp?promo=birthday_tab_dt_hmnfq=listprice%253A1000.0%2520TO%25201499.0%252Clistprice%253A1500.0%2520TO%25201999.0
+                    - generic [ref=e251]: Rs 1000 - Rs 2000
+                  - link "Above Rs 2000" [ref=e252] [cursor=pointer]:
+                    - /url: /gifts/birthday-lp?promo=birthday_tab_dt_hmnfq=listprice%253A2000.0%2520TO%25202499.0%252Clistprice%253A2500.0%2520TO%25202999.0%252Clistprice%253A3000.0%2520TO%2520%2520*%2520
+                    - generic [ref=e254]: Above Rs 2000
+                  - link "Below Rs 500" [ref=e255] [cursor=pointer]:
+                    - /url: /gifts/birthday-lp?promo=birthday_tab_dt_hmnfq=listprice%253A0.0%2520TO%2520499.0
+                    - generic [ref=e257]: Below Rs 500
+                - link "Birthday Gifts" [ref=e259] [cursor=pointer]:
+                  - /url: /gifts/birthday-lp?promo=birthdaymenu_dt_hm_banner
+                  - img "Birthday Gifts" [ref=e262]
+            - navigation [ref=e263]:
+              - button "Occasions" [ref=e265] [cursor=pointer]:
+                - generic [ref=e266]: Occasions
+                - img "down-arrow" [ref=e268]
+              - generic [ref=e270]:
+                - generic [ref=e271]:
+                  - generic [ref=e272]: Festive Vibes
+                  - link "Guru Purnima - 29th Jul" [ref=e273] [cursor=pointer]:
+                    - /url: /gifts/guru-purnima-lp?promo=occasionmenu_gurupurnima_dt_hm
+                    - generic [ref=e275]: Guru Purnima - 29th Jul
+                  - link "Raksha Bandhan - 28th Aug" [ref=e276] [cursor=pointer]:
+                    - /url: /rakhi-lp?promo=occasionmenu_rakhi_dt_hm
+                    - generic [ref=e278]: Raksha Bandhan - 28th Aug
+                - generic [ref=e279]:
+                  - generic [ref=e280]: Moments of Joy
+                  - link "Gifts in 60 mins New" [ref=e281] [cursor=pointer]:
+                    - /url: /instant-delivery-gifts-lp?promo=occasionmenu_instant_dt_hm
+                    - generic [ref=e282]:
+                      - generic [ref=e283]: Gifts in 60 mins
+                      - generic [ref=e284]: New
+                  - link "World Environment Day - 5th Jun" [ref=e285] [cursor=pointer]:
+                    - /url: /gifts/environment-day-lp?promo=occasionmenu_world_environment_dt_hm
+                    - generic [ref=e287]: World Environment Day - 5th Jun
+                  - link "Father's Day - 21st Jun" [ref=e288] [cursor=pointer]:
+                    - /url: /gifts/fathers-day-lp?promo=occasionmenu_fathersday_dt_hm
+                    - generic [ref=e290]: Father's Day - 21st Jun
+                  - link "National Doctor's Day - 1st Jul" [ref=e291] [cursor=pointer]:
+                    - /url: /gifts/doctors-day-lp?promo=occasionmenu_national_doctor_day_dt_hm
+                    - generic [ref=e293]: National Doctor's Day - 1st Jul
+                  - link "Friendship Day - 2nd Aug" [ref=e294] [cursor=pointer]:
+                    - /url: /gifts/friendship-day-lp?promo=occasionmenu_friendshipday_dt_hm
+                    - generic [ref=e296]: Friendship Day - 2nd Aug
+                  - link "Wife Appreciation Day - 21st Sep" [ref=e297] [cursor=pointer]:
+                    - /url: /gifts/wife-appreciation-day-lp?promo=occasionmenu_wifeappreciation_dt_hm
+                    - generic [ref=e299]: Wife Appreciation Day - 21st Sep
+                  - link "International Men's Day - 19th Nov" [ref=e300] [cursor=pointer]:
+                    - /url: /gifts/mens-day-lp?promo=occasionmenu_mensday_dt_hm
+                    - generic [ref=e302]: International Men's Day - 19th Nov
+                  - link "Valentine's Day - 14th Feb" [ref=e303] [cursor=pointer]:
+                    - /url: /gifts/valentines-day-lp?promo=occasionmenu_valentineday_dt_hm
+                    - generic [ref=e305]: Valentine's Day - 14th Feb
+                - generic [ref=e306]:
+                  - generic [ref=e307]: Celebrations & Sentiments
+                  - link "Wedding" [ref=e308] [cursor=pointer]:
+                    - /url: /gifts/wedding-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e310]: Wedding
+                  - link "Congratulations" [ref=e311] [cursor=pointer]:
+                    - /url: /gifts/congratulations-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e313]: Congratulations
+                  - link "I Am Sorry" [ref=e314] [cursor=pointer]:
+                    - /url: /gifts/i-am-sorry-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e316]: I Am Sorry
+                  - link "Love n Romance" [ref=e317] [cursor=pointer]:
+                    - /url: /gifts/love-n-romance-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e319]: Love n Romance
+                  - link "Miss You" [ref=e320] [cursor=pointer]:
+                    - /url: /gifts/miss-you-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e322]: Miss You
+                  - link "Thank You" [ref=e323] [cursor=pointer]:
+                    - /url: /gifts/thank-you-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e325]: Thank You
+                  - link "Thinking of You" [ref=e326] [cursor=pointer]:
+                    - /url: /gifts/thinking-of-you-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e328]: Thinking of You
+                  - link "Best Wishes" [ref=e329] [cursor=pointer]:
+                    - /url: /gifts/best-wishes-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e331]: Best Wishes
+                  - link "Get Well Soon" [ref=e332] [cursor=pointer]:
+                    - /url: /gifts/get-well-soon-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e334]: Get Well Soon
+                  - link "House Warming" [ref=e335] [cursor=pointer]:
+                    - /url: /gifts/house-warming-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e337]: House Warming
+                  - link "New Born Baby" [ref=e338] [cursor=pointer]:
+                    - /url: /gifts/new-born-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e340]: New Born Baby
+                  - link "Baby Shower" [ref=e341] [cursor=pointer]:
+                    - /url: /gifts/baby-shower-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e343]: Baby Shower
+                  - link "Retirement" [ref=e344] [cursor=pointer]:
+                    - /url: /gifts/retirement-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e346]: Retirement
+                  - link "Sympathy n Funeral" [ref=e347] [cursor=pointer]:
+                    - /url: /flowers/sympathy-n-funeral-lp?promo=occasionsmenu_dt_hm
+                    - generic [ref=e349]: Sympathy n Funeral
+                - link "Birthday" [ref=e351] [cursor=pointer]:
+                  - /url: /gifts/birthday-lp?promo=occasions_tab_dt_hm_navbanner
+                  - img "Birthday" [ref=e354]
+                - link "Anniversary" [ref=e356] [cursor=pointer]:
+                  - /url: /gifts/anniversary-lp?promo=occasions_tab_dt_hm_navbanner
+                  - img "Anniversary" [ref=e359]
+            - navigation [ref=e360]:
+              - button "Anniversary" [ref=e362] [cursor=pointer]:
+                - generic [ref=e363]: Anniversary
+                - img "down-arrow" [ref=e365]
+              - generic [ref=e367]:
+                - generic [ref=e368]:
+                  - generic [ref=e369]: Featured Picks
+                  - link "Gifts in 60 mins New" [ref=e370] [cursor=pointer]:
+                    - /url: /instant-delivery-gifts/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e371]:
+                      - generic [ref=e372]: Gifts in 60 mins
+                      - generic [ref=e373]: New
+                  - link "All Gifts" [ref=e374] [cursor=pointer]:
+                    - /url: /all-gifts/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e376]: All Gifts
+                  - link "Best Sellers" [ref=e377] [cursor=pointer]:
+                    - /url: /gifts-bestsellers/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e379]: Best Sellers
+                  - link "Premium Gifts" [ref=e380] [cursor=pointer]:
+                    - /url: /premium-gifts/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e382]: Premium Gifts
+                  - link "New Arrivals" [ref=e383] [cursor=pointer]:
+                    - /url: /new-arrival-gifts/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e385]: New Arrivals
+                  - link "LUXE Anniversary New" [ref=e386] [cursor=pointer]:
+                    - /url: /fnpluxe-gifts/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e387]:
+                      - generic [ref=e388]: LUXE Anniversary
+                      - generic [ref=e389]: New
+                  - link "Hatke Gifts New" [ref=e390] [cursor=pointer]:
+                    - /url: /hatke-gifts/love-n-romance-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e391]:
+                      - generic [ref=e392]: Hatke Gifts
+                      - generic [ref=e393]: New
+                  - link "Experiential Gifts" [ref=e394] [cursor=pointer]:
+                    - /url: /experiential-gifts/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e396]: Experiential Gifts
+                  - link "Photo Frames" [ref=e397] [cursor=pointer]:
+                    - /url: /photo-frames/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e399]: Photo Frames
+                - generic [ref=e400]:
+                  - generic [ref=e401]: Celebrate With
+                  - link "Cakes" [ref=e402] [cursor=pointer]:
+                    - /url: /cakes/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e404]: Cakes
+                  - link "Flowers" [ref=e405] [cursor=pointer]:
+                    - /url: /flowers/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e407]: Flowers
+                  - link "Personalised Gifts" [ref=e408] [cursor=pointer]:
+                    - /url: /personalised-gifts/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e410]: Personalised Gifts
+                  - link "Gift Hampers" [ref=e411] [cursor=pointer]:
+                    - /url: /gift-hampers/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e413]: Gift Hampers
+                  - link "Chocolates" [ref=e414] [cursor=pointer]:
+                    - /url: /chocolates/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e416]: Chocolates
+                  - link "Plants" [ref=e417] [cursor=pointer]:
+                    - /url: /plants/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e419]: Plants
+                  - link "Flowers n Cakes" [ref=e420] [cursor=pointer]:
+                    - /url: /flowers-n-cakes/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e422]: Flowers n Cakes
+                  - link "Combos" [ref=e423] [cursor=pointer]:
+                    - /url: /combos/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e425]: Combos
+                  - link "Decorations Services" [ref=e426] [cursor=pointer]:
+                    - /url: /decoration-services/anniversary-lp?promo=anniversarymenu_dt_hm
+                    - generic [ref=e428]: Decorations Services
+                - generic [ref=e429]:
+                  - generic [ref=e430]:
+                    - generic [ref=e431]: For Your Loved Ones
+                    - generic [ref=e432]:
+                      - link "For Husband" [ref=e433] [cursor=pointer]:
+                        - /url: /gifts/anniversary/for-husband-lp?promo=anniversarymenu_dt_hm
+                        - generic [ref=e435]: For Husband
+                      - link "For Wife" [ref=e436] [cursor=pointer]:
+                        - /url: /gifts/anniversary/for-wife-lp?promo=anniversarymenu_dt_hm
+                        - generic [ref=e438]: For Wife
+                      - link "For Couples" [ref=e439] [cursor=pointer]:
+                        - /url: /gifts/anniversary/for-couples-lp?promo=anniversarymenu_dt_hm
+                        - generic [ref=e441]: For Couples
+                      - link "For Parents" [ref=e442] [cursor=pointer]:
+                        - /url: /gifts/anniversary/for-parents-lp?promo=anniversarymenu_dt_hm
+                        - generic [ref=e444]: For Parents
+                  - generic [ref=e446]:
+                    - generic [ref=e447]: Milestone Celebrations
+                    - generic [ref=e448]:
+                      - link "1st Anniversary" [ref=e449] [cursor=pointer]:
+                        - /url: /gifts/1st-anniversary-lp?promo=anniversarymenu_dt_hm
+                        - generic [ref=e451]: 1st Anniversary
+                      - link "10th Anniversary" [ref=e452] [cursor=pointer]:
+                        - /url: /gifts/10th-anniversary-lp?promo=anniversarymenu_dt_hm
+                        - generic [ref=e454]: 10th Anniversary
+                      - link "25th Anniversary" [ref=e455] [cursor=pointer]:
+                        - /url: /gifts/25th-anniversary-lp?promo=anniversarymenu_dt_hm
+                        - generic [ref=e457]: 25th Anniversary
+                      - link "50th Anniversary" [ref=e458] [cursor=pointer]:
+                        - /url: /gifts/50th-anniversary-lp?promo=anniversarymenu_dt_hm
+                        - generic [ref=e460]: 50th Anniversary
+                - generic [ref=e461]:
+                  - generic [ref=e462]: Most Loved Wedding Gifts
+                  - link "All Gifts" [ref=e463] [cursor=pointer]:
+                    - /url: /all-gifts/wedding-lp?promo=weddingmenu_forever_allgifts_dt_hm
+                    - generic [ref=e465]: All Gifts
+                  - link "Cakes" [ref=e466] [cursor=pointer]:
+                    - /url: /cakes/wedding-lp?promo=weddingmenu_forever_cakes_dt_hm
+                    - generic [ref=e468]: Cakes
+                  - link "Flowers" [ref=e469] [cursor=pointer]:
+                    - /url: /flowers/wedding-lp?promo=weddingmenu_forever_flowers_dt_hm
+                    - generic [ref=e471]: Flowers
+                  - link "Hampers" [ref=e472] [cursor=pointer]:
+                    - /url: /gift-hampers/wedding-lp?promo=weddingmenu_forever_hampers_dt_hm
+                    - generic [ref=e474]: Hampers
+                  - link "Jewellery" [ref=e475] [cursor=pointer]:
+                    - /url: /jewellery/wedding-lp?promo=weddingmenu_forever_jewellery_dt_hm
+                    - generic [ref=e477]: Jewellery
+                  - link "Personalised Gifts" [ref=e478] [cursor=pointer]:
+                    - /url: /personalised-gifts/wedding-lp?promo=weddingmenu_forever_personalised_dt_hm
+                    - generic [ref=e480]: Personalised Gifts
+                  - link "Chocolates" [ref=e481] [cursor=pointer]:
+                    - /url: /chocolates/wedding-lp?promo=weddingmenu_forever_chocolates_dt_hm
+                    - generic [ref=e483]: Chocolates
+                  - link "Premium Gifts" [ref=e484] [cursor=pointer]:
+                    - /url: /premium-gifts/wedding-lp?promo=weddingmenu_forever_premium_dt_hm
+                    - generic [ref=e486]: Premium Gifts
+                  - link "Home Decor" [ref=e487] [cursor=pointer]:
+                    - /url: /home-decor/wedding-lp?promo=weddingmenu_elegant_decor_dt_hm
+                    - generic [ref=e489]: Home Decor
+                  - link "Gift Sets" [ref=e490] [cursor=pointer]:
+                    - /url: /combos/wedding-lp?promo=weddingmenu_elegant_giftsets_dt_hm
+                    - generic [ref=e492]: Gift Sets
+                - generic [ref=e493]:
+                  - generic [ref=e494]:
+                    - generic [ref=e495]: Bachelor Party Gifts
+                    - generic [ref=e496]:
+                      - link "All Gifts" [ref=e497] [cursor=pointer]:
+                        - /url: /gifts/for-bachelor-n-bachelorette-lp?promo=weddingmenu_party_bachelor_n_bachelorette_dt_hm
+                        - generic [ref=e499]: All Gifts
+                      - link "For Her" [ref=e500] [cursor=pointer]:
+                        - /url: /gifts/for-bachelorette-lp?promo=weddingmenu_party_bachelorette_dt_hm
+                        - generic [ref=e502]: For Her
+                      - link "For Him" [ref=e503] [cursor=pointer]:
+                        - /url: /gifts/for-bachelor-lp?promo=weddingmenu_party_bachelor_dt_hm
+                        - generic [ref=e505]: For Him
+                  - generic [ref=e507]:
+                    - generic [ref=e508]: Gifts for Everyone
+                    - generic [ref=e509]:
+                      - link "Bride" [ref=e510] [cursor=pointer]:
+                        - /url: /gifts/for-bride-lp?promo=weddingmenu_everyone_bride_dt_hm
+                        - generic [ref=e512]: Bride
+                      - link "Groom" [ref=e513] [cursor=pointer]:
+                        - /url: /gifts/for-groom-lp?promo=weddingmenu_everyone_groom_dt_hm
+                        - generic [ref=e515]: Groom
+                      - link "Relatives & Friends" [ref=e516] [cursor=pointer]:
+                        - /url: /gifts/wedding/for-friends-n-relatives-lp?promo=weddingmenu_everyone_relatives_dt_hm
+                        - generic [ref=e518]: Relatives & Friends
+                - link "Anniversary Gifts" [ref=e520] [cursor=pointer]:
+                  - /url: /gifts/anniversary-lp?promo=anniversarymenu_dt_hm_banner
+                  - img "Anniversary Gifts" [ref=e523]
+                - link "Wedding Gifts" [ref=e525] [cursor=pointer]:
+                  - /url: /gifts/wedding-lp?promo=weddingmenu_navigation_banner_dt_hm
+                  - img "Wedding Gifts" [ref=e528]
+            - navigation [ref=e529]:
+              - button "Flowers" [ref=e531] [cursor=pointer]:
+                - generic [ref=e532]: Flowers
+                - img "down-arrow" [ref=e534]
+              - generic [ref=e536]:
+                - generic [ref=e537]:
+                  - generic [ref=e538]: In Focus
+                  - link "Flowers in 60 mins New" [ref=e539] [cursor=pointer]:
+                    - /url: /instant-delivery-flowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e540]:
+                      - generic [ref=e541]: Flowers in 60 mins
+                      - generic [ref=e542]: New
+                  - link "All Flowers" [ref=e543] [cursor=pointer]:
+                    - /url: /flowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e545]: All Flowers
+                  - link "Best Sellers" [ref=e546] [cursor=pointer]:
+                    - /url: /flowers-bestsellers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e548]: Best Sellers
+                  - link "Same Day Delivery" [ref=e549] [cursor=pointer]:
+                    - /url: /same-day-delivery-flowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e551]: Same Day Delivery
+                  - link "New Arrivals" [ref=e552] [cursor=pointer]:
+                    - /url: /new-arrival-flowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e554]: New Arrivals
+                  - link "Summer Flowers New" [ref=e555] [cursor=pointer]:
+                    - /url: /summer-flowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e556]:
+                      - generic [ref=e557]: Summer Flowers
+                      - generic [ref=e558]: New
+                  - link "Personalised Flowers" [ref=e559] [cursor=pointer]:
+                    - /url: /personalised-flowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e561]: Personalised Flowers
+                  - link "Crochet Flowers New" [ref=e562] [cursor=pointer]:
+                    - /url: /crochet-flowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e563]:
+                      - generic [ref=e564]: Crochet Flowers
+                      - generic [ref=e565]: New
+                  - link "Premium Flowers" [ref=e566] [cursor=pointer]:
+                    - /url: /premium-flowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e568]: Premium Flowers
+                  - link "Zodiac Flowers" [ref=e569] [cursor=pointer]:
+                    - /url: /zodiac-flowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e571]: Zodiac Flowers
+                  - link "Forever Flowers" [ref=e572] [cursor=pointer]:
+                    - /url: /forever-flowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e574]: Forever Flowers
+                  - link "Standing Flower Bouquets" [ref=e575] [cursor=pointer]:
+                    - /url: /standing-flower-bouquets-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e577]: Standing Flower Bouquets
+                - generic [ref=e578]:
+                  - generic [ref=e579]:
+                    - generic [ref=e580]: Flowers For Every Occasions
+                    - generic [ref=e581]:
+                      - link "Birthday" [ref=e582] [cursor=pointer]:
+                        - /url: /flowers/birthday-lp?promo=flowersmenu_dt_hm
+                        - generic [ref=e584]: Birthday
+                      - link "Anniversary" [ref=e585] [cursor=pointer]:
+                        - /url: /flowers/anniversary-lp?promo=flowersmenu_dt_hm
+                        - generic [ref=e587]: Anniversary
+                      - link "Congratulations" [ref=e588] [cursor=pointer]:
+                        - /url: /flowers/congratulations-lp?promo=flowersmenu_dt_hm
+                        - generic [ref=e590]: Congratulations
+                      - link "Love n Romance" [ref=e591] [cursor=pointer]:
+                        - /url: /flowers/love-n-romance-lp?promo=flowersmenu_dt_hm
+                        - generic [ref=e593]: Love n Romance
+                      - link "Wedding" [ref=e594] [cursor=pointer]:
+                        - /url: /flowers/wedding-lp?promo=flowersmenu_dt_hm
+                        - generic [ref=e596]: Wedding
+                      - link "Housewarming" [ref=e597] [cursor=pointer]:
+                        - /url: /flowers/house-warming-lp?promo=flowersmenu_dt_hm
+                        - generic [ref=e599]: Housewarming
+                      - link "Condolences" [ref=e600] [cursor=pointer]:
+                        - /url: /flowers/sympathy-n-funeral-lp?promo=flowersmenu_dt_hm
+                        - generic [ref=e602]: Condolences
+                  - generic [ref=e604]:
+                    - generic [ref=e605]: Bloom Assortment
+                    - generic [ref=e606]:
+                      - link "Flowers n Cakes" [ref=e607] [cursor=pointer]:
+                        - /url: /flowers-n-cakes-lp?promo=flowersmenu_dt_hm
+                        - generic [ref=e609]: Flowers n Cakes
+                      - link "Flowers n Chocolates" [ref=e610] [cursor=pointer]:
+                        - /url: /flowers-n-chocolates-lp?promo=flowersmenu_dt_hm
+                        - generic [ref=e612]: Flowers n Chocolates
+                      - link "Flowers n Guitarist" [ref=e613] [cursor=pointer]:
+                        - /url: /flowers-n-guitarist-service-lp?promo=flowersmenu_dt_hm
+                        - generic [ref=e615]: Flowers n Guitarist
+                      - link "Flower Hampers" [ref=e616] [cursor=pointer]:
+                        - /url: /flower-hampers-lp?promo=flowersmenu_dt_hm
+                        - generic [ref=e618]: Flower Hampers
+                - generic [ref=e619]:
+                  - generic [ref=e620]: Floral Types
+                  - link "Roses" [ref=e621] [cursor=pointer]:
+                    - /url: /roses-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e623]: Roses
+                  - link "Mixed Flowers" [ref=e624] [cursor=pointer]:
+                    - /url: /mixed-flowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e626]: Mixed Flowers
+                  - link "Carnations" [ref=e627] [cursor=pointer]:
+                    - /url: /carnations-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e629]: Carnations
+                  - link "Lilies" [ref=e630] [cursor=pointer]:
+                    - /url: /lilies-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e632]: Lilies
+                  - link "Exotic Flowers" [ref=e633] [cursor=pointer]:
+                    - /url: /exotic-flowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e635]: Exotic Flowers
+                  - link "Orchids" [ref=e636] [cursor=pointer]:
+                    - /url: /orchids-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e638]: Orchids
+                  - link "Gerberas" [ref=e639] [cursor=pointer]:
+                    - /url: /gerberas-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e641]: Gerberas
+                  - link "Sunflowers" [ref=e642] [cursor=pointer]:
+                    - /url: /sunflowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e644]: Sunflowers
+                  - link "Dried Flowers New" [ref=e645] [cursor=pointer]:
+                    - /url: /dried-flowers-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e646]:
+                      - generic [ref=e647]: Dried Flowers
+                      - generic [ref=e648]: New
+                  - link "Daisies New" [ref=e649] [cursor=pointer]:
+                    - /url: /daisies-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e650]:
+                      - generic [ref=e651]: Daisies
+                      - generic [ref=e652]: New
+                - generic [ref=e654]:
+                  - generic [ref=e655]: Blossom Arrangement
+                  - generic [ref=e656]:
+                    - link "LUXE Flowers New" [ref=e657] [cursor=pointer]:
+                      - /url: /fnpluxe-flowers-lp?promo=flowersmenu_dt_hm
+                      - generic [ref=e658]:
+                        - generic [ref=e659]: LUXE Flowers
+                        - generic [ref=e660]: New
+                    - link "Flower Arrangements" [ref=e661] [cursor=pointer]:
+                      - /url: /flower-arrangements-lp?promo=flowersmenu_dt_hm
+                      - generic [ref=e663]: Flower Arrangements
+                    - link "Flower Bouquets" [ref=e664] [cursor=pointer]:
+                      - /url: /flower-bouquets-lp?promo=flowersmenu_dt_hm
+                      - generic [ref=e666]: Flower Bouquets
+                    - link "Red" [ref=e667] [cursor=pointer]:
+                      - /url: /red-flowers-lp?promo=flowersmenu_dt_hm
+                      - generic [ref=e669]: Red
+                    - link "Pink" [ref=e670] [cursor=pointer]:
+                      - /url: /pink-flowers-lp?promo=flowersmenu_dt_hm
+                      - generic [ref=e672]: Pink
+                    - link "Purple" [ref=e673] [cursor=pointer]:
+                      - /url: /purple-flowers-lp?promo=flowersmenu_dt_hm
+                      - generic [ref=e675]: Purple
+                    - link "Blue" [ref=e676] [cursor=pointer]:
+                      - /url: /blue-flowers-lp?promo=flowersmenu_dt_hm
+                      - generic [ref=e678]: Blue
+                    - link "Yellow" [ref=e679] [cursor=pointer]:
+                      - /url: /yellow-flowers-lp?promo=flowersmenu_dt_hm
+                      - generic [ref=e681]: Yellow
+                    - link "Pastel" [ref=e682] [cursor=pointer]:
+                      - /url: /pastel-color-flowers-lp?promo=flowersmenu_dt_hm
+                      - generic [ref=e684]: Pastel
+                - generic [ref=e685]:
+                  - generic [ref=e686]: Send Flowers To
+                  - link "Delhi NCR" [ref=e687] [cursor=pointer]:
+                    - /url: /flowers/delhi-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e689]: Delhi NCR
+                  - link "Bengaluru" [ref=e690] [cursor=pointer]:
+                    - /url: /flowers/bengaluru-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e692]: Bengaluru
+                  - link "Mumbai" [ref=e693] [cursor=pointer]:
+                    - /url: /flowers/mumbai-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e695]: Mumbai
+                  - link "Pune" [ref=e696] [cursor=pointer]:
+                    - /url: /flowers/pune-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e698]: Pune
+                  - link "Hyderabad" [ref=e699] [cursor=pointer]:
+                    - /url: /flowers/hyderabad-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e701]: Hyderabad
+                  - link "Kolkata" [ref=e702] [cursor=pointer]:
+                    - /url: /flowers/kolkata-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e704]: Kolkata
+                  - link "Chennai" [ref=e705] [cursor=pointer]:
+                    - /url: /flowers/chennai-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e707]: Chennai
+                  - link "Lucknow" [ref=e708] [cursor=pointer]:
+                    - /url: /flowers/lucknow-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e710]: Lucknow
+                  - link "Ahmedabad" [ref=e711] [cursor=pointer]:
+                    - /url: /flowers/ahmedabad-lp?promo=flowersmenu_dt_hm
+                    - generic [ref=e713]: Ahmedabad
+                  - link "All Other Cities" [ref=e714] [cursor=pointer]:
+                    - /url: /flowers?promo=flowersmenu_dt_hm
+                    - generic [ref=e716]: All Other Cities
+                - link "Summer Flowers" [ref=e718] [cursor=pointer]:
+                  - /url: /summer-flowers-lp?promo=flowers_tab_dt_hm
+                  - img "Summer Flowers" [ref=e721]
+            - navigation [ref=e722]:
+              - button "Cakes" [ref=e724] [cursor=pointer]:
+                - generic [ref=e725]: Cakes
+                - img "down-arrow" [ref=e727]
+              - generic [ref=e729]:
+                - generic [ref=e730]:
+                  - generic [ref=e731]:
+                    - generic [ref=e732]: All Cakes
+                    - generic [ref=e733]:
+                      - link "Bestselling Cakes" [ref=e734] [cursor=pointer]:
+                        - /url: /cakes-bestsellers-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e736]: Bestselling Cakes
+                      - link "New Arrivals Cakes" [ref=e737] [cursor=pointer]:
+                        - /url: /new-arrival-cakes-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e739]: New Arrivals Cakes
+                      - link "Same Day Delivery" [ref=e740] [cursor=pointer]:
+                        - /url: /cakes-same-day-delivery-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e742]: Same Day Delivery
+                      - link "Midnight Delivery" [ref=e743] [cursor=pointer]:
+                        - /url: /cakes-midnight-delivery-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e745]: Midnight Delivery
+                      - link "Cakes in 60 Mins" [ref=e746] [cursor=pointer]:
+                        - /url: /instant-delivery-cakes-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e748]: Cakes in 60 Mins
+                      - link "Explore All" [ref=e749] [cursor=pointer]:
+                        - /url: /cakes-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e751]: Explore All
+                  - generic [ref=e753]:
+                    - generic [ref=e754]: For Occasions
+                    - generic [ref=e755]:
+                      - link "Birthday Cakes" [ref=e756] [cursor=pointer]:
+                        - /url: /cakes/birthday-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e758]: Birthday Cakes
+                      - link "Boys Birthday Cakes" [ref=e759] [cursor=pointer]:
+                        - /url: /cakes/birthday/for-boys-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e761]: Boys Birthday Cakes
+                      - link "Girls Birthday Cakes" [ref=e762] [cursor=pointer]:
+                        - /url: /cakes/birthday/for-girls-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e764]: Girls Birthday Cakes
+                      - link "Kids Birthday Cakes" [ref=e765] [cursor=pointer]:
+                        - /url: /cakes/birthday/for-kids-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e767]: Kids Birthday Cakes
+                      - link "Anniversary Cakes" [ref=e768] [cursor=pointer]:
+                        - /url: /cakes/anniversary-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e770]: Anniversary Cakes
+                      - link "Engagement Cakes" [ref=e771] [cursor=pointer]:
+                        - /url: /engagement-cakes-lp
+                        - generic [ref=e773]: Engagement Cakes
+                      - link "Wedding Cakes" [ref=e774] [cursor=pointer]:
+                        - /url: /cakes/wedding-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e776]: Wedding Cakes
+                      - link "Congratulations Cakes" [ref=e777] [cursor=pointer]:
+                        - /url: /cakes/congratulations-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e779]: Congratulations Cakes
+                      - link "Baby Shower Cakes" [ref=e780] [cursor=pointer]:
+                        - /url: /baby-shower-cakes-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e782]: Baby Shower Cakes
+                - generic [ref=e783]:
+                  - generic [ref=e784]: By Type
+                  - link "Bento cakes New" [ref=e785] [cursor=pointer]:
+                    - /url: /bento-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e786]:
+                      - generic [ref=e787]: Bento cakes
+                      - generic [ref=e788]: New
+                  - link "Jar Cakes" [ref=e789] [cursor=pointer]:
+                    - /url: /cake-in-a-jar-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e791]: Jar Cakes
+                  - link "Cup Cakes" [ref=e792] [cursor=pointer]:
+                    - /url: /cup-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e794]: Cup Cakes
+                  - link "Brownies" [ref=e795] [cursor=pointer]:
+                    - /url: /brownies-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e797]: Brownies
+                  - link "Cream Cakes" [ref=e798] [cursor=pointer]:
+                    - /url: /cream-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e800]: Cream Cakes
+                  - link "Fondant Cakes" [ref=e801] [cursor=pointer]:
+                    - /url: /fondant-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e803]: Fondant Cakes
+                  - link "Eggless Cakes" [ref=e804] [cursor=pointer]:
+                    - /url: /eggless-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e806]: Eggless Cakes
+                  - link "Photo Cakes" [ref=e807] [cursor=pointer]:
+                    - /url: /photo-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e809]: Photo Cakes
+                  - link "Designer Cakes" [ref=e810] [cursor=pointer]:
+                    - /url: /designer-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e812]: Designer Cakes
+                  - link "Fusion Cakes" [ref=e813] [cursor=pointer]:
+                    - /url: /fusion-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e815]: Fusion Cakes
+                  - link "Healthy Cakes New" [ref=e816] [cursor=pointer]:
+                    - /url: /healthy-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e817]:
+                      - generic [ref=e818]: Healthy Cakes
+                      - generic [ref=e819]: New
+                  - link "Dry Cakes" [ref=e820] [cursor=pointer]:
+                    - /url: /dry-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e822]: Dry Cakes
+                  - link "Heart Shaped Cakes" [ref=e823] [cursor=pointer]:
+                    - /url: /heart-shaped-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e825]: Heart Shaped Cakes
+                  - link "Luxe Cakes" [ref=e826] [cursor=pointer]:
+                    - /url: /fnpluxe-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e828]: Luxe Cakes
+                - generic [ref=e829]:
+                  - generic [ref=e830]: By Flavour
+                  - link "Chocolate Cakes" [ref=e831] [cursor=pointer]:
+                    - /url: /chocolate-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e833]: Chocolate Cakes
+                  - link "Mango Cakes New" [ref=e834] [cursor=pointer]:
+                    - /url: /mango-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e835]:
+                      - generic [ref=e836]: Mango Cakes
+                      - generic [ref=e837]: New
+                  - link "Fresh Fruit Cakes New" [ref=e838] [cursor=pointer]:
+                    - /url: /fresh-fruit-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e839]:
+                      - generic [ref=e840]: Fresh Fruit Cakes
+                      - generic [ref=e841]: New
+                  - link "Butterscotch Cakes" [ref=e842] [cursor=pointer]:
+                    - /url: /butterscotch-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e844]: Butterscotch Cakes
+                  - link "Truffle Cakes" [ref=e845] [cursor=pointer]:
+                    - /url: /truffle-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e847]: Truffle Cakes
+                  - link "Red Velvet Cakes" [ref=e848] [cursor=pointer]:
+                    - /url: /red-velvet-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e850]: Red Velvet Cakes
+                  - link "Pineapple Cakes" [ref=e851] [cursor=pointer]:
+                    - /url: /pineapple-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e853]: Pineapple Cakes
+                  - link "Cheesecakes" [ref=e854] [cursor=pointer]:
+                    - /url: /cheesecakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e856]: Cheesecakes
+                  - link "Black Forest Cakes" [ref=e857] [cursor=pointer]:
+                    - /url: /black-forest-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e859]: Black Forest Cakes
+                  - link "Vanilla Cakes" [ref=e860] [cursor=pointer]:
+                    - /url: /vanilla-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e862]: Vanilla Cakes
+                  - link "Blueberry Cakes" [ref=e863] [cursor=pointer]:
+                    - /url: /blueberry-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e865]: Blueberry Cakes
+                  - link "Tiramisu Cakes" [ref=e866] [cursor=pointer]:
+                    - /url: /tiramisu-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e868]: Tiramisu Cakes
+                  - link "Walnut Cakes" [ref=e869] [cursor=pointer]:
+                    - /url: /walnut-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e871]: Walnut Cakes
+                  - link "Coffee Cakes New" [ref=e872] [cursor=pointer]:
+                    - /url: /coffee-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e873]:
+                      - generic [ref=e874]: Coffee Cakes
+                      - generic [ref=e875]: New
+                  - link "Caramel Cakes" [ref=e876] [cursor=pointer]:
+                    - /url: /caramel-cakes-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e878]: Caramel Cakes
+                - generic [ref=e879]:
+                  - generic [ref=e880]:
+                    - generic [ref=e881]: By Theme
+                    - generic [ref=e882]:
+                      - link "Animal Cakes" [ref=e883] [cursor=pointer]:
+                        - /url: /animal-cakes-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e885]: Animal Cakes
+                      - link "Barbie Cakes" [ref=e886] [cursor=pointer]:
+                        - /url: /barbie-cakes-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e888]: Barbie Cakes
+                      - link "Unicorn Cakes" [ref=e889] [cursor=pointer]:
+                        - /url: /unicorn-cakes-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e891]: Unicorn Cakes
+                  - generic [ref=e893]:
+                    - generic [ref=e894]: Curated Combos
+                    - generic [ref=e895]:
+                      - link "Flowers n Cakes" [ref=e896] [cursor=pointer]:
+                        - /url: /flowers-n-cakes-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e898]: Flowers n Cakes
+                      - link "Cake Combos" [ref=e899] [cursor=pointer]:
+                        - /url: /cake-combos-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e901]: Cake Combos
+                      - link "Cake with Plants" [ref=e902] [cursor=pointer]:
+                        - /url: /cakes-n-plants-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e904]: Cake with Plants
+                      - link "Cake with Chocolates" [ref=e905] [cursor=pointer]:
+                        - /url: /cakes-n-chocolates-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e907]: Cake with Chocolates
+                      - link "Cakes n Guitarist" [ref=e908] [cursor=pointer]:
+                        - /url: /cakes-n-guitarist-service-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e910]: Cakes n Guitarist
+                - generic [ref=e911]:
+                  - generic [ref=e912]:
+                    - generic [ref=e913]: Milestone Cakes
+                    - generic [ref=e914]:
+                      - link "1st Birthday" [ref=e915] [cursor=pointer]:
+                        - /url: /cakes/1st-birthday-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e917]: 1st Birthday
+                      - link "10th Birthday" [ref=e918] [cursor=pointer]:
+                        - /url: /cakes/10th-birthday-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e920]: 10th Birthday
+                      - link "18th Birthday" [ref=e921] [cursor=pointer]:
+                        - /url: /cakes/18th-birthday-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e923]: 18th Birthday
+                      - link "50th Birthday" [ref=e924] [cursor=pointer]:
+                        - /url: /cakes/50th-birthday-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e926]: 50th Birthday
+                      - link "1st Anniversary" [ref=e927] [cursor=pointer]:
+                        - /url: /cakes/1st-anniversary-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e929]: 1st Anniversary
+                      - link "25th Anniversary" [ref=e930] [cursor=pointer]:
+                        - /url: /cakes/25th-anniversary-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e932]: 25th Anniversary
+                      - link "50th Anniversary" [ref=e933] [cursor=pointer]:
+                        - /url: /cakes/50th-anniversary-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e935]: 50th Anniversary
+                  - generic [ref=e937]:
+                    - generic [ref=e938]: By Recipient
+                    - generic [ref=e939]:
+                      - link "Him" [ref=e940] [cursor=pointer]:
+                        - /url: /cakes/for-him-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e942]: Him
+                      - link "Her" [ref=e943] [cursor=pointer]:
+                        - /url: /cakes/for-her-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e945]: Her
+                      - link "Father" [ref=e946] [cursor=pointer]:
+                        - /url: /cakes/for-father-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e948]: Father
+                      - link "Mother" [ref=e949] [cursor=pointer]:
+                        - /url: /cakes/for-mother-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e951]: Mother
+                      - link "Husband" [ref=e952] [cursor=pointer]:
+                        - /url: /cakes/for-husband-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e954]: Husband
+                      - link "Wife" [ref=e955] [cursor=pointer]:
+                        - /url: /cakes/for-wife-lp?promo=cakesmenu_dt_hm
+                        - generic [ref=e957]: Wife
+                - generic [ref=e958]:
+                  - generic [ref=e959]: By Cities
+                  - link "Cakes in Delhi" [ref=e960] [cursor=pointer]:
+                    - /url: /cakes/delhi-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e962]: Cakes in Delhi
+                  - link "Cakes in Mumbai" [ref=e963] [cursor=pointer]:
+                    - /url: /cakes/mumbai-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e965]: Cakes in Mumbai
+                  - link "Cakes in Bengaluru" [ref=e966] [cursor=pointer]:
+                    - /url: /cakes/bengaluru-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e968]: Cakes in Bengaluru
+                  - link "Cakes in Pune" [ref=e969] [cursor=pointer]:
+                    - /url: /cakes/pune-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e971]: Cakes in Pune
+                  - link "Cakes in Hyderabad" [ref=e972] [cursor=pointer]:
+                    - /url: /cakes/hyderabad-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e974]: Cakes in Hyderabad
+                  - link "Cakes in Kolkata" [ref=e975] [cursor=pointer]:
+                    - /url: /cakes/kolkata-lp?promo=cakesmenu_dt_hm
+                    - generic [ref=e977]: Cakes in Kolkata
+                - link "Mango Cakes" [ref=e979] [cursor=pointer]:
+                  - /url: /mango-cakes-lp?promo=cakesmenu_dt_hm_banner
+                  - img "Mango Cakes" [ref=e982]
+            - navigation [ref=e983]:
+              - button "Personalised" [ref=e985] [cursor=pointer]:
+                - generic [ref=e986]: Personalised
+                - img "down-arrow" [ref=e988]
+              - generic [ref=e990]:
+                - generic [ref=e991]:
+                  - generic [ref=e992]: Gifts In Spotlight
+                  - link "Mugs" [ref=e993] [cursor=pointer]:
+                    - /url: /personalised-mugs-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e995]: Mugs
+                  - link "Cushions" [ref=e996] [cursor=pointer]:
+                    - /url: /personalised-cushions-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e998]: Cushions
+                  - link "Water Bottles" [ref=e999] [cursor=pointer]:
+                    - /url: /personalised-water-bottles-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1001]: Water Bottles
+                  - link "Stationery" [ref=e1002] [cursor=pointer]:
+                    - /url: /personalised-stationery-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1004]: Stationery
+                  - link "Engraved" [ref=e1005] [cursor=pointer]:
+                    - /url: /personalised-engraved-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1007]: Engraved
+                  - link "Lamps" [ref=e1008] [cursor=pointer]:
+                    - /url: /personalised-lamps-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1010]: Lamps
+                  - link "Photo Frames" [ref=e1011] [cursor=pointer]:
+                    - /url: /personalised-photo-frames-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1013]: Photo Frames
+                  - link "Bar Accessories" [ref=e1014] [cursor=pointer]:
+                    - /url: /bar-accessories-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1016]: Bar Accessories
+                  - link "Clocks" [ref=e1017] [cursor=pointer]:
+                    - /url: /personalised-clocks-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1019]: Clocks
+                  - link "Glass Ware" [ref=e1020] [cursor=pointer]:
+                    - /url: /personalised-glassware-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1022]: Glass Ware
+                  - link "Name Plates" [ref=e1023] [cursor=pointer]:
+                    - /url: /personalised-name-plates-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1025]: Name Plates
+                  - link "Keychains" [ref=e1026] [cursor=pointer]:
+                    - /url: /personalised-key-chains-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1028]: Keychains
+                  - link "Pet Gifts New" [ref=e1029] [cursor=pointer]:
+                    - /url: /personalised-gifts/for-pets-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1030]:
+                      - generic [ref=e1031]: Pet Gifts
+                      - generic [ref=e1032]: New
+                - generic [ref=e1033]:
+                  - generic [ref=e1034]: Tailor Treasures
+                  - link "All Personalised Gifts" [ref=e1035] [cursor=pointer]:
+                    - /url: /all-personalised-gifts-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1037]: All Personalised Gifts
+                  - link "Same Day Delivery" [ref=e1038] [cursor=pointer]:
+                    - /url: /same-day-delivery-personalised-gifts-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1040]: Same Day Delivery
+                  - link "Best Sellers" [ref=e1041] [cursor=pointer]:
+                    - /url: /personalised-gifts-bestsellers-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1043]: Best Sellers
+                  - link "New Arrivals" [ref=e1044] [cursor=pointer]:
+                    - /url: /new-arrival-personalised-gifts-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1046]: New Arrivals
+                  - link "Personalised Flowers New" [ref=e1047] [cursor=pointer]:
+                    - /url: /personalised-flowers-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1048]:
+                      - generic [ref=e1049]: Personalised Flowers
+                      - generic [ref=e1050]: New
+                  - link "Personalised Photo Cakes" [ref=e1051] [cursor=pointer]:
+                    - /url: /photo-cakes-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1053]: Personalised Photo Cakes
+                  - link "Personalised Plants New" [ref=e1054] [cursor=pointer]:
+                    - /url: /personalised-plants-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1055]:
+                      - generic [ref=e1056]: Personalised Plants
+                      - generic [ref=e1057]: New
+                  - link "Personalised Combos" [ref=e1058] [cursor=pointer]:
+                    - /url: /personalised-combos-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1060]: Personalised Combos
+                  - link "Personalised Chocolates" [ref=e1061] [cursor=pointer]:
+                    - /url: /personalised-chocolates-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1063]: Personalised Chocolates
+                  - link "Personalised Hampers" [ref=e1064] [cursor=pointer]:
+                    - /url: /personalised-hampers-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1066]: Personalised Hampers
+                  - link "Personalised Accessories" [ref=e1067] [cursor=pointer]:
+                    - /url: /personalised-accessories-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1069]: Personalised Accessories
+                - generic [ref=e1070]:
+                  - generic [ref=e1071]:
+                    - generic [ref=e1072]: For Every Occasions
+                    - generic [ref=e1073]:
+                      - link "Birthday" [ref=e1074] [cursor=pointer]:
+                        - /url: /personalised-gifts/birthday-lp?promo=personalizedmenu_dt_hm
+                        - generic [ref=e1076]: Birthday
+                      - link "Anniversary" [ref=e1077] [cursor=pointer]:
+                        - /url: /personalised-gifts/anniversary-lp?promo=personalizedmenu_dt_hm
+                        - generic [ref=e1079]: Anniversary
+                      - link "Love n Romance" [ref=e1080] [cursor=pointer]:
+                        - /url: /personalised-gifts/love-n-romance-lp?promo=personalizedmenu_dt_hm
+                        - generic [ref=e1082]: Love n Romance
+                      - link "Wedding" [ref=e1083] [cursor=pointer]:
+                        - /url: /personalised-gifts/wedding-lp?promo=personalizedmenu_dt_hm
+                        - generic [ref=e1085]: Wedding
+                  - generic [ref=e1087]:
+                    - generic [ref=e1088]: Personalise Gifts For
+                    - generic [ref=e1089]:
+                      - link "For Him" [ref=e1090] [cursor=pointer]:
+                        - /url: /personalised-gifts/for-him-lp?promo=personalizedmenu_dt_hm
+                        - generic [ref=e1092]: For Him
+                      - link "For Her" [ref=e1093] [cursor=pointer]:
+                        - /url: /personalised-gifts/for-her-lp?promo=personalizedmenu_dt_hm
+                        - generic [ref=e1095]: For Her
+                      - link "For Kids" [ref=e1096] [cursor=pointer]:
+                        - /url: /personalised-gifts/for-kids-lp?promo=personalizedmenu_dt_hm
+                        - generic [ref=e1098]: For Kids
+                      - link "For Husband" [ref=e1099] [cursor=pointer]:
+                        - /url: /personalised-gifts/for-husband-lp?promo=personalizedmenu_dt_hm
+                        - generic [ref=e1101]: For Husband
+                      - link "For Wife" [ref=e1102] [cursor=pointer]:
+                        - /url: /personalised-gifts/for-wife-lp?promo=personalizedmenu_dt_hm
+                        - generic [ref=e1104]: For Wife
+                - generic [ref=e1105]:
+                  - generic [ref=e1106]: Trending
+                  - link "Hatke Gifts New" [ref=e1107] [cursor=pointer]:
+                    - /url: /hatke-gifts-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1108]:
+                      - generic [ref=e1109]: Hatke Gifts
+                      - generic [ref=e1110]: New
+                  - link "Explosion Boxes" [ref=e1111] [cursor=pointer]:
+                    - /url: /explosion-boxes-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1113]: Explosion Boxes
+                  - link "Jewellery" [ref=e1114] [cursor=pointer]:
+                    - /url: /personalised-jewellery-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1116]: Jewellery
+                  - link "Caricatures" [ref=e1117] [cursor=pointer]:
+                    - /url: /personalised-caricatures-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1119]: Caricatures
+                  - link "Neon Lights" [ref=e1120] [cursor=pointer]:
+                    - /url: /neon-light-gifts-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1122]: Neon Lights
+                  - link "T-Shirts" [ref=e1123] [cursor=pointer]:
+                    - /url: /personalised-t-shirts-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1125]: T-Shirts
+                  - link "Travel Accessories" [ref=e1126] [cursor=pointer]:
+                    - /url: /personalised-travel-accessories-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1128]: Travel Accessories
+                  - link "Perfumes" [ref=e1129] [cursor=pointer]:
+                    - /url: /personalised-perfumes-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1131]: Perfumes
+                  - link "Greeting Cards" [ref=e1132] [cursor=pointer]:
+                    - /url: /personalised-greeting-cards-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1134]: Greeting Cards
+                - generic [ref=e1135]:
+                  - generic [ref=e1136]: By Cities
+                  - link "Delhi NCR" [ref=e1137] [cursor=pointer]:
+                    - /url: /personalised-gifts/delhi-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1139]: Delhi NCR
+                  - link "Mumbai" [ref=e1140] [cursor=pointer]:
+                    - /url: /personalised-gifts/mumbai-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1142]: Mumbai
+                  - link "Bengaluru" [ref=e1143] [cursor=pointer]:
+                    - /url: /personalised-gifts/bengaluru-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1145]: Bengaluru
+                  - link "Pune" [ref=e1146] [cursor=pointer]:
+                    - /url: /personalised-gifts/pune-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1148]: Pune
+                  - link "Hyderabad" [ref=e1149] [cursor=pointer]:
+                    - /url: /personalised-gifts/hyderabad-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1151]: Hyderabad
+                  - link "Kolkata" [ref=e1152] [cursor=pointer]:
+                    - /url: /personalised-gifts/kolkata-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1154]: Kolkata
+                  - link "Chennai" [ref=e1155] [cursor=pointer]:
+                    - /url: /personalised-gifts/chennai-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1157]: Chennai
+                  - link "Lucknow" [ref=e1158] [cursor=pointer]:
+                    - /url: /personalised-gifts/lucknow-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1160]: Lucknow
+                  - link "Ahmedabad" [ref=e1161] [cursor=pointer]:
+                    - /url: /personalised-gifts/ahmedabad-lp?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1163]: Ahmedabad
+                  - link "All Other Cities" [ref=e1164] [cursor=pointer]:
+                    - /url: /personalised-gifts?promo=personalizedmenu_dt_hm
+                    - generic [ref=e1166]: All Other Cities
+                - link "Personalised" [ref=e1168] [cursor=pointer]:
+                  - /url: /same-day-delivery-personalised-gifts-lp?promo=personalizedmenu_dt_hm
+                  - img "Personalised" [ref=e1171]
+            - navigation [ref=e1172]:
+              - button "Plants" [ref=e1174] [cursor=pointer]:
+                - generic [ref=e1175]: Plants
+                - img "down-arrow" [ref=e1177]
+              - generic [ref=e1179]:
+                - generic [ref=e1180]:
+                  - generic [ref=e1181]: Elite Greens
+                  - link "Lush Ferns Galore" [ref=e1182] [cursor=pointer]:
+                    - /url: /all-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1184]: Lush Ferns Galore
+                  - link "All Plants" [ref=e1185] [cursor=pointer]:
+                    - /url: /plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1187]: All Plants
+                  - link "Best Sellers" [ref=e1188] [cursor=pointer]:
+                    - /url: /plants-bestsellers-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1190]: Best Sellers
+                  - link "Same Day Delivery" [ref=e1191] [cursor=pointer]:
+                    - /url: /plants-same-day-delivery-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1193]: Same Day Delivery
+                  - link "LUXE Plants New" [ref=e1194] [cursor=pointer]:
+                    - /url: /fnpluxe-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1195]:
+                      - generic [ref=e1196]: LUXE Plants
+                      - generic [ref=e1197]: New
+                  - link "New Arrivals" [ref=e1198] [cursor=pointer]:
+                    - /url: /new-arrival-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1200]: New Arrivals
+                  - link "Premium Plants" [ref=e1201] [cursor=pointer]:
+                    - /url: /premium-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1203]: Premium Plants
+                  - link "Air Purifying Plants" [ref=e1204] [cursor=pointer]:
+                    - /url: /air-purifying-n-stress-relieving-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1206]: Air Purifying Plants
+                  - link "Plants for Her" [ref=e1207] [cursor=pointer]:
+                    - /url: /plants/for-her-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1209]: Plants for Her
+                  - link "Plants for Him" [ref=e1210] [cursor=pointer]:
+                    - /url: /plants/for-him-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1212]: Plants for Him
+                  - link "Kokedama Plants New" [ref=e1213] [cursor=pointer]:
+                    - /url: /kokedama-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1214]:
+                      - generic [ref=e1215]: Kokedama Plants
+                      - generic [ref=e1216]: New
+                  - link "Plants Offers" [ref=e1217] [cursor=pointer]:
+                    - /url: /plants-offers-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1219]: Plants Offers
+                  - link "Garden Accessories" [ref=e1220] [cursor=pointer]:
+                    - /url: /garden-accessories-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1222]: Garden Accessories
+                  - link "Terrariums Plants" [ref=e1223] [cursor=pointer]:
+                    - /url: /terrariums-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1225]: Terrariums Plants
+                  - link "Personalised Plants" [ref=e1226] [cursor=pointer]:
+                    - /url: /personalised-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1228]: Personalised Plants
+                - generic [ref=e1229]:
+                  - generic [ref=e1230]:
+                    - generic [ref=e1231]: Perfect Placements
+                    - generic [ref=e1232]:
+                      - link "Indoor Plants" [ref=e1233] [cursor=pointer]:
+                        - /url: /indoor-plants-lp?promo=plantsmenu_dt_hm
+                        - generic [ref=e1235]: Indoor Plants
+                      - link "Desktop Plants" [ref=e1236] [cursor=pointer]:
+                        - /url: /desktop-plants-lp?promo=plantsmenu_dt_hm
+                        - generic [ref=e1238]: Desktop Plants
+                  - generic [ref=e1240]:
+                    - generic [ref=e1241]: For Celebrations
+                    - generic [ref=e1242]:
+                      - link "Birthday" [ref=e1243] [cursor=pointer]:
+                        - /url: /plants/birthday-lp?promo=plantsmenu_dt_hm
+                        - generic [ref=e1245]: Birthday
+                      - link "Anniversary" [ref=e1246] [cursor=pointer]:
+                        - /url: /plants/anniversary-lp?promo=plantsmenu_dt_hm
+                        - generic [ref=e1248]: Anniversary
+                      - link "House Warming" [ref=e1249] [cursor=pointer]:
+                        - /url: /plants/house-warming-lp?promo=plantsmenu_dt_hm
+                        - generic [ref=e1251]: House Warming
+                      - link "Good Luck" [ref=e1252] [cursor=pointer]:
+                        - /url: /good-luck-plants-lp?promo=plantsmenu_dt_hm
+                        - generic [ref=e1254]: Good Luck
+                - generic [ref=e1255]:
+                  - generic [ref=e1256]: Plants Collection
+                  - link "Money Plants" [ref=e1257] [cursor=pointer]:
+                    - /url: /money-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1259]: Money Plants
+                  - link "Snake Plants" [ref=e1260] [cursor=pointer]:
+                    - /url: /snake-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1262]: Snake Plants
+                  - link "Jade Plants" [ref=e1263] [cursor=pointer]:
+                    - /url: /jade-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1265]: Jade Plants
+                  - link "Peace Lily" [ref=e1266] [cursor=pointer]:
+                    - /url: /peace-lily-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1268]: Peace Lily
+                  - link "Plants DIY Kits" [ref=e1269] [cursor=pointer]:
+                    - /url: /plants-diy-kits-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1271]: Plants DIY Kits
+                  - link "Lucky Bamboo" [ref=e1272] [cursor=pointer]:
+                    - /url: /lucky-bamboo-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1274]: Lucky Bamboo
+                  - link "Palm Plants" [ref=e1275] [cursor=pointer]:
+                    - /url: /palm-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1277]: Palm Plants
+                  - link "Bonsai Plants" [ref=e1278] [cursor=pointer]:
+                    - /url: /bonsai-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1280]: Bonsai Plants
+                  - link "Ficus Plants" [ref=e1281] [cursor=pointer]:
+                    - /url: /ficus-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1283]: Ficus Plants
+                  - link "Spider Plants" [ref=e1284] [cursor=pointer]:
+                    - /url: /spider-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1286]: Spider Plants
+                  - link "Exotic Plants" [ref=e1287] [cursor=pointer]:
+                    - /url: /exotic-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1289]: Exotic Plants
+                  - link "Agalaonema Plants" [ref=e1290] [cursor=pointer]:
+                    - /url: /aglaonema-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1292]: Agalaonema Plants
+                  - link "Flowering Plants" [ref=e1293] [cursor=pointer]:
+                    - /url: /flowering-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1295]: Flowering Plants
+                  - link "Cactus n Succulent Plants" [ref=e1296] [cursor=pointer]:
+                    - /url: /cactuses-n-succulents-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1298]: Cactus n Succulent Plants
+                  - link "Low Maintenance Plants" [ref=e1299] [cursor=pointer]:
+                    - /url: /low-maintenance-plants-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1301]: Low Maintenance Plants
+                - generic [ref=e1303]:
+                  - generic [ref=e1304]: Planters Style
+                  - generic [ref=e1305]:
+                    - link "Ceramic Planters" [ref=e1306] [cursor=pointer]:
+                      - /url: /ceramic-planters-lp?promo=plantsmenu_dt_hm
+                      - generic [ref=e1308]: Ceramic Planters
+                    - link "Metal Planters" [ref=e1309] [cursor=pointer]:
+                      - /url: /metal-planters-lp?promo=plantsmenu_dt_hm
+                      - generic [ref=e1311]: Metal Planters
+                    - link "Glass Planters" [ref=e1312] [cursor=pointer]:
+                      - /url: /glass-planters-lp?promo=plantsmenu_dt_hm
+                      - generic [ref=e1314]: Glass Planters
+                    - link "Mugs Planters" [ref=e1315] [cursor=pointer]:
+                      - /url: /mugs-planters-lp?promo=plantsmenu_dt_hm
+                      - generic [ref=e1317]: Mugs Planters
+                    - link "Planter Pots" [ref=e1318] [cursor=pointer]:
+                      - /url: /planters-lp?promo=plantsmenu_dt_hm
+                      - generic [ref=e1320]: Planter Pots
+                    - link "Cake n Plants" [ref=e1321] [cursor=pointer]:
+                      - /url: /cakes-n-plants-lp?promo=plantsmenu_dt_hm
+                      - generic [ref=e1323]: Cake n Plants
+                    - link "Plants Combos" [ref=e1324] [cursor=pointer]:
+                      - /url: /plant-combos-lp?promo=plantsmenu_dt_hm
+                      - generic [ref=e1326]: Plants Combos
+                    - link "Flowers n Plants" [ref=e1327] [cursor=pointer]:
+                      - /url: /flowers-n-plants-lp?promo=plantsmenu_dt_hm
+                      - generic [ref=e1329]: Flowers n Plants
+                - generic [ref=e1330]:
+                  - generic [ref=e1331]: Send Plants To
+                  - link "Delhi NCR" [ref=e1332] [cursor=pointer]:
+                    - /url: /plants/delhi-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1334]: Delhi NCR
+                  - link "Bengaluru" [ref=e1335] [cursor=pointer]:
+                    - /url: /plants/bengaluru-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1337]: Bengaluru
+                  - link "Mumbai" [ref=e1338] [cursor=pointer]:
+                    - /url: /plants/mumbai-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1340]: Mumbai
+                  - link "Pune" [ref=e1341] [cursor=pointer]:
+                    - /url: /plants/pune-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1343]: Pune
+                  - link "Hyderabad" [ref=e1344] [cursor=pointer]:
+                    - /url: /plants/hyderabad-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1346]: Hyderabad
+                  - link "Kolkata" [ref=e1347] [cursor=pointer]:
+                    - /url: /plants/kolkata-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1349]: Kolkata
+                  - link "Chennai" [ref=e1350] [cursor=pointer]:
+                    - /url: /plants/chennai-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1352]: Chennai
+                  - link "Lucknow" [ref=e1353] [cursor=pointer]:
+                    - /url: /plants/lucknow-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1355]: Lucknow
+                  - link "Ahmedabad" [ref=e1356] [cursor=pointer]:
+                    - /url: /plants/ahmedabad-lp?promo=plantsmenu_dt_hm
+                    - generic [ref=e1358]: Ahmedabad
+                  - link "All Other Cities" [ref=e1359] [cursor=pointer]:
+                    - /url: /plants?promo=plantsmenu_dt_hm
+                    - generic [ref=e1361]: All Other Cities
+                - link "Plants" [ref=e1363] [cursor=pointer]:
+                  - /url: /all-plants-lp?promo=plantsmenu_dt_hm_banner
+                  - img "Plants" [ref=e1366]
+            - navigation [ref=e1367]:
+              - button "Balloon n Services" [ref=e1369] [cursor=pointer]:
+                - generic [ref=e1370]: Balloon n Services
+                - img "down-arrow" [ref=e1372]
+              - generic [ref=e1374]:
+                - generic [ref=e1375]:
+                  - generic [ref=e1376]: Balloon Decor
+                  - link "Balloon Bouquets" [ref=e1377] [cursor=pointer]:
+                    - /url: /balloon-bouquets-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1379]: Balloon Bouquets
+                  - link "Balloon Decorations" [ref=e1380] [cursor=pointer]:
+                    - /url: /balloon-decorations-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1382]: Balloon Decorations
+                  - link "Room Decorations" [ref=e1383] [cursor=pointer]:
+                    - /url: /room-decorations-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1385]: Room Decorations
+                  - link "Balloon Kits" [ref=e1386] [cursor=pointer]:
+                    - /url: /balloon-kits-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1388]: Balloon Kits
+                  - link "Decorations for Kids" [ref=e1389] [cursor=pointer]:
+                    - /url: /decoration-services/for-kids-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1391]: Decorations for Kids
+                  - link "Car Decorations" [ref=e1392] [cursor=pointer]:
+                    - /url: /car-decoration-balloon-decor-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1394]: Car Decorations
+                - generic [ref=e1395]:
+                  - generic [ref=e1396]: Occasions
+                  - link "Birthday Decorations" [ref=e1397] [cursor=pointer]:
+                    - /url: /decoration-services/birthday-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1399]: Birthday Decorations
+                  - link "Anniversary Decorations" [ref=e1400] [cursor=pointer]:
+                    - /url: /decoration-services/anniversary-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1402]: Anniversary Decorations
+                  - link "Baby Shower Decorations" [ref=e1403] [cursor=pointer]:
+                    - /url: /decoration-services/baby-shower-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1405]: Baby Shower Decorations
+                - generic [ref=e1406]:
+                  - generic [ref=e1407]: Services
+                  - link "Experiential Gifts" [ref=e1408] [cursor=pointer]:
+                    - /url: /experiential-gifts-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1410]: Experiential Gifts
+                  - link "Digital Gifts" [ref=e1411] [cursor=pointer]:
+                    - /url: /digital-gifts-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1413]: Digital Gifts
+                  - link "Gifts n Guitarists" [ref=e1414] [cursor=pointer]:
+                    - /url: /gifts-n-guitarist-service-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1416]: Gifts n Guitarists
+                  - link "Spa n Services New" [ref=e1417] [cursor=pointer]:
+                    - /url: /spa-n-services-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1418]:
+                      - generic [ref=e1419]: Spa n Services
+                      - generic [ref=e1420]: New
+                - generic [ref=e1421]:
+                  - generic [ref=e1422]: Occasions
+                  - link "Birthday Experiences" [ref=e1423] [cursor=pointer]:
+                    - /url: /experiential-gifts/birthday-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1425]: Birthday Experiences
+                  - link "Birthday Digital Gifts" [ref=e1426] [cursor=pointer]:
+                    - /url: /digital-gifts/birthday-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1428]: Birthday Digital Gifts
+                  - link "Anniversary Experiences" [ref=e1429] [cursor=pointer]:
+                    - /url: /experiential-gifts/anniversary-lp?promo=balloondecormenu_dt_hm
+                    - generic [ref=e1431]: Anniversary Experiences
+                - link "valentines-day" [ref=e1433] [cursor=pointer]:
+                  - /url: /balloon-bouquets-lp?promo=balloondecormenu_dt_hm_banner
+                  - img "valentines-day" [ref=e1436]
+                - link "Anniversary" [ref=e1438] [cursor=pointer]:
+                  - /url: /gifts-n-guitarist-service-lp?promo=balloondecormenu_dt_hm_banner
+                  - img "Anniversary" [ref=e1441]
+                - link "Birthday" [ref=e1443] [cursor=pointer]:
+                  - /url: /room-decorations-lp?promo=balloondecormenu_dt_hm_banner
+                  - img "Birthday" [ref=e1446]
+            - navigation [ref=e1447]:
+              - button "Chocolates" [ref=e1449] [cursor=pointer]:
+                - generic [ref=e1450]: Chocolates
+                - img "down-arrow" [ref=e1452]
+              - generic [ref=e1454]:
+                - generic [ref=e1456]:
+                  - generic [ref=e1457]: By Featured
+                  - generic [ref=e1458]:
+                    - link "All Chocolates" [ref=e1459] [cursor=pointer]:
+                      - /url: /chocolates-lp?promo=chocolatesmenu_dt_hm
+                      - generic [ref=e1461]: All Chocolates
+                    - link "Best Sellers" [ref=e1462] [cursor=pointer]:
+                      - /url: /chocolates-bestsellers-lp?promo=chocolatesmenu_dt_hm
+                      - generic [ref=e1464]: Best Sellers
+                    - link "Same Day Chocolates" [ref=e1465] [cursor=pointer]:
+                      - /url: /chocolates-same-day-delivery-lp?promo=chocolatesmenu_dt_hm
+                      - generic [ref=e1467]: Same Day Chocolates
+                    - link "New Arrivals" [ref=e1468] [cursor=pointer]:
+                      - /url: /new-arrival-chocolates-lp?promo=chocolatesmenu_dt_hm
+                      - generic [ref=e1470]: New Arrivals
+                    - link "Premium Chocolates New" [ref=e1471] [cursor=pointer]:
+                      - /url: /premium-chocolates-lp?promo=chocolatesmenu_dt_hm
+                      - generic [ref=e1472]:
+                        - generic [ref=e1473]: Premium Chocolates
+                        - generic [ref=e1474]: New
+                    - link "Gourmet Gifts" [ref=e1475] [cursor=pointer]:
+                      - /url: /gourmet-gifts-lp?promo=chocolatesmenu_dt_hm
+                      - generic [ref=e1477]: Gourmet Gifts
+                    - link "Milk Chocolates" [ref=e1478] [cursor=pointer]:
+                      - /url: /milk-chocolates-lp?promo=chocolatesmenu_dt_hm
+                      - generic [ref=e1480]: Milk Chocolates
+                    - link "Dark Chocolates" [ref=e1481] [cursor=pointer]:
+                      - /url: /dark-chocolates-lp?promo=chocolatesmenu_dt_hm
+                      - generic [ref=e1483]: Dark Chocolates
+                    - link "Personalised Chocolates" [ref=e1484] [cursor=pointer]:
+                      - /url: /personalised-chocolates-lp?promo=chocolatesmenu_dt_hm
+                      - generic [ref=e1486]: Personalised Chocolates
+                    - link "Sugar Free Chocolates" [ref=e1487] [cursor=pointer]:
+                      - /url: /sugar-free-chocolates-lp?promo=chocolatesmenu_dt_hm
+                      - generic [ref=e1489]: Sugar Free Chocolates
+                    - link "Handmade Chocolates" [ref=e1490] [cursor=pointer]:
+                      - /url: /handmade-chocolates-lp?promo=chocolatesmenu_dt_hm
+                      - generic [ref=e1492]: Handmade Chocolates
+                - generic [ref=e1493]:
+                  - generic [ref=e1494]: By Choices
+                  - link "Chocolate Bouquets" [ref=e1495] [cursor=pointer]:
+                    - /url: /chocolate-bouquet-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1497]: Chocolate Bouquets
+                  - link "Chocolate Hampers" [ref=e1498] [cursor=pointer]:
+                    - /url: /chocolates-hampers-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1500]: Chocolate Hampers
+                  - link "Chocolate Combos" [ref=e1501] [cursor=pointer]:
+                    - /url: /chocolate-combos-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1503]: Chocolate Combos
+                  - link "Flowers n Chocolates" [ref=e1504] [cursor=pointer]:
+                    - /url: /flowers-n-chocolates-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1506]: Flowers n Chocolates
+                  - link "Imported Chocolates" [ref=e1507] [cursor=pointer]:
+                    - /url: /imported-chocolates-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1509]: Imported Chocolates
+                  - link "Dubai Chocolates New" [ref=e1510] [cursor=pointer]:
+                    - /url: /dubai-chocolates-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1511]:
+                      - generic [ref=e1512]: Dubai Chocolates
+                      - generic [ref=e1513]: New
+                - generic [ref=e1514]:
+                  - generic [ref=e1515]: By Brands
+                  - link "Ferrero Rocher" [ref=e1516] [cursor=pointer]:
+                    - /url: /ferrero-rocher-chocolates-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1518]: Ferrero Rocher
+                  - link "Cadbury" [ref=e1519] [cursor=pointer]:
+                    - /url: /cadbury-chocolates-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1521]: Cadbury
+                  - link "Artisanal Chocolates" [ref=e1522] [cursor=pointer]:
+                    - /url: /artisanal-chocolates-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1524]: Artisanal Chocolates
+                  - link "FNP Premium Chocolates" [ref=e1525] [cursor=pointer]:
+                    - /url: /fnp-premium-chocolates-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1527]: FNP Premium Chocolates
+                  - link "Lindt Chocolates" [ref=e1528] [cursor=pointer]:
+                    - /url: /lindt-chocolates-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1530]: Lindt Chocolates
+                  - link "Toblerone" [ref=e1531] [cursor=pointer]:
+                    - /url: /toblerone-chocolates-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1533]: Toblerone
+                  - link "Hershey Chocolates" [ref=e1534] [cursor=pointer]:
+                    - /url: /hershey-chocolates-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1536]: Hershey Chocolates
+                  - link "Kitkat Chocolates" [ref=e1537] [cursor=pointer]:
+                    - /url: /kitkat-chocolates-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1539]: Kitkat Chocolates
+                - generic [ref=e1540]:
+                  - generic [ref=e1541]:
+                    - generic [ref=e1542]: By Occasions
+                    - generic [ref=e1543]:
+                      - link "Birthday" [ref=e1544] [cursor=pointer]:
+                        - /url: /chocolates/birthday-lp?promo=chocolatesmenu_dt_hm
+                        - generic [ref=e1546]: Birthday
+                      - link "Anniversary" [ref=e1547] [cursor=pointer]:
+                        - /url: /chocolates/anniversary?promo=chocolatesmenu_dt_hm
+                        - generic [ref=e1549]: Anniversary
+                      - link "Thank You" [ref=e1550] [cursor=pointer]:
+                        - /url: /chocolates/thank-you?promo=chocolatesmenu_dt_hm
+                        - generic [ref=e1552]: Thank You
+                      - link "Wedding" [ref=e1553] [cursor=pointer]:
+                        - /url: /chocolates/wedding-lp?promo=chocolatesmenu_dt_hm
+                        - generic [ref=e1555]: Wedding
+                  - generic [ref=e1557]:
+                    - generic [ref=e1558]: By Prices
+                    - generic [ref=e1559]:
+                      - link "Gifts Rs 500 - Rs 1000" [ref=e1560] [cursor=pointer]:
+                        - /url: /chocolates-lp?promo=chocolatesmenu_dt_hm=nfq-listprice=500.0%2520TO%2520999.0
+                        - generic [ref=e1562]: Gifts Rs 500 - Rs 1000
+                      - link "Gifts Rs 1000 - Rs 2000" [ref=e1563] [cursor=pointer]:
+                        - /url: /chocolates-lp?promo=chocolatesmenu_dt_hm=nfq-listprice=1000.0%2520TO%25201499.0nfq-listprice=1500.0%2520TO%25201999.0
+                        - generic [ref=e1565]: Gifts Rs 1000 - Rs 2000
+                      - link "Gifts above Rs 2000" [ref=e1566] [cursor=pointer]:
+                        - /url: /chocolates-lp?promo=chocolatesmenu_dt_hm=nfq-listprice=2500.0%2520TO%25202999.0nfq-listprice=2000.0%2520TO%25202499.0
+                        - generic [ref=e1568]: Gifts above Rs 2000
+                - generic [ref=e1569]:
+                  - generic [ref=e1570]: By Cities
+                  - link "Delhi NCR" [ref=e1571] [cursor=pointer]:
+                    - /url: /chocolates/delhi-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1573]: Delhi NCR
+                  - link "Bengaluru" [ref=e1574] [cursor=pointer]:
+                    - /url: /chocolates/bengaluru-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1576]: Bengaluru
+                  - link "Mumbai" [ref=e1577] [cursor=pointer]:
+                    - /url: /chocolates/mumbai-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1579]: Mumbai
+                  - link "Pune" [ref=e1580] [cursor=pointer]:
+                    - /url: /chocolates/pune-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1582]: Pune
+                  - link "Hyderabad" [ref=e1583] [cursor=pointer]:
+                    - /url: /chocolates/hyderabad-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1585]: Hyderabad
+                  - link "Kolkata" [ref=e1586] [cursor=pointer]:
+                    - /url: /chocolates/kolkata-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1588]: Kolkata
+                  - link "Chennai" [ref=e1589] [cursor=pointer]:
+                    - /url: /chocolates/chennai-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1591]: Chennai
+                  - link "Lucknow" [ref=e1592] [cursor=pointer]:
+                    - /url: /chocolates/lucknow-lp?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1594]: Lucknow
+                  - link "All Other Cities" [ref=e1595] [cursor=pointer]:
+                    - /url: /chocolates?promo=chocolatesmenu_dt_hm
+                    - generic [ref=e1597]: All Other Cities
+                - link "Chocolates" [ref=e1599] [cursor=pointer]:
+                  - /url: /chocolates-lp?promo=chocolatesmenu_dt_hm_banner
+                  - img "Chocolates" [ref=e1602]
+            - navigation [ref=e1603]:
+              - button "LUXE" [ref=e1605] [cursor=pointer]:
+                - generic [ref=e1606]: LUXE
+                - img "down-arrow" [ref=e1608]
+              - generic [ref=e1610]:
+                - generic [ref=e1611]:
+                  - generic [ref=e1612]: The LUXE Lineup
+                  - link "All Gifts" [ref=e1613] [cursor=pointer]:
+                    - /url: /fnpluxe-all-gifts-lp?promo=luxemenu_allgifts_dt_hm
+                    - generic [ref=e1615]: All Gifts
+                  - link "Flowers" [ref=e1616] [cursor=pointer]:
+                    - /url: /fnpluxe-flowers-lp?promo=luxemenu_flowers_dt_hm
+                    - generic [ref=e1618]: Flowers
+                  - link "Hampers" [ref=e1619] [cursor=pointer]:
+                    - /url: /fnpluxe-hampers-lp?promo=luxemenu_hampers_dt_hm
+                    - generic [ref=e1621]: Hampers
+                  - link "Cakes" [ref=e1622] [cursor=pointer]:
+                    - /url: /fnpluxe-cakes-lp?promo=luxemenu_cakes_dt_hm
+                    - generic [ref=e1624]: Cakes
+                  - link "Plants" [ref=e1625] [cursor=pointer]:
+                    - /url: /fnpluxe-plants-lp?promo=luxemenu_plants_dt_hm
+                    - generic [ref=e1627]: Plants
+                  - link "New Arrivals" [ref=e1628] [cursor=pointer]:
+                    - /url: /fnpluxe-new-arrival-gifts-lp?promo=luxemenu_newarrivals_dt_hm
+                    - generic [ref=e1630]: New Arrivals
+                  - link "Same Day Delivery" [ref=e1631] [cursor=pointer]:
+                    - /url: /fnpluxe-same-day-delivery-gifts-lp?promo=luxemenu_samedaydelivery_dt_hm
+                    - generic [ref=e1633]: Same Day Delivery
+                - generic [ref=e1634]:
+                  - generic [ref=e1635]: LUXE By Occasion
+                  - link "Birthday" [ref=e1636] [cursor=pointer]:
+                    - /url: /fnpluxe-gifts/birthday-lp?promo=luxemenu_birthday_dt_hm
+                    - generic [ref=e1638]: Birthday
+                  - link "Anniversary" [ref=e1639] [cursor=pointer]:
+                    - /url: /fnpluxe-gifts/anniversary-lp?promo=luxemenu_anniversary_dt_hm
+                    - generic [ref=e1641]: Anniversary
+                  - link "Housewarming" [ref=e1642] [cursor=pointer]:
+                    - /url: /fnpluxe-gifts/house-warming-lp?promo=luxemenu_housewarming_dt_hm
+                    - generic [ref=e1644]: Housewarming
+                - generic [ref=e1645]:
+                  - generic [ref=e1646]: Curated Collections
+                  - link "The LUXE Amour" [ref=e1647] [cursor=pointer]:
+                    - /url: /the-luxe-amour-lp?promo=luxemenu_theluxeamour_dt_hm
+                    - generic [ref=e1649]: The LUXE Amour
+                  - link "The Monochrome Edit" [ref=e1650] [cursor=pointer]:
+                    - /url: /the-luxe-monochrome-edit-lp?promo=luxemenu_theluxemonochromeedit_dt_hm
+                    - generic [ref=e1652]: The Monochrome Edit
+                  - link "Eternal Curations" [ref=e1653] [cursor=pointer]:
+                    - /url: /fnpluxe-eternal-curations-lp?promo=luxemenu_eternalcurations_dt_hm
+                    - generic [ref=e1655]: Eternal Curations
+                  - link "Pastel Perfection" [ref=e1656] [cursor=pointer]:
+                    - /url: /fnpluxe-pastel-perfection-lp?promo=luxemenu_pastelperfection_dt_hm
+                    - generic [ref=e1658]: Pastel Perfection
+                  - link "Red Opulence" [ref=e1659] [cursor=pointer]:
+                    - /url: /fnpluxe-red-opulence-lp?promo=luxemenu_redopulence_dt_hm
+                    - generic [ref=e1661]: Red Opulence
+                - link "LUXE Flowers Gifts" [ref=e1663] [cursor=pointer]:
+                  - /url: /fnpluxe-flowers-lp?promo=luxemenu_banner1_dt_hm
+                  - img "LUXE Flowers Gifts" [ref=e1666]
+                - link "LUXE Cakes Gifts" [ref=e1668] [cursor=pointer]:
+                  - /url: /fnpluxe-cakes-lp?promo=luxemenu_banner2_dt_hm
+                  - img "LUXE Cakes Gifts" [ref=e1671]
+                - link "LUXE Hampers Gifts" [ref=e1673] [cursor=pointer]:
+                  - /url: /fnpluxe-hampers-lp?promo=luxemenu_banner3_dt_hm
+                  - img "LUXE Hampers Gifts" [ref=e1676]
+            - navigation [ref=e1677]:
+              - button "Hampers" [ref=e1679] [cursor=pointer]:
+                - generic [ref=e1680]: Hampers
+                - img "down-arrow" [ref=e1682]
+              - generic [ref=e1684]:
+                - generic [ref=e1685]:
+                  - generic [ref=e1686]: Featured Hampers
+                  - link "New Arrivals" [ref=e1687] [cursor=pointer]:
+                    - /url: /new-arrival-gift-hampers-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1689]: New Arrivals
+                  - link "Birthday Hampers" [ref=e1690] [cursor=pointer]:
+                    - /url: /gift-hampers/birthday-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1692]: Birthday Hampers
+                  - link "Anniversary Hampers" [ref=e1693] [cursor=pointer]:
+                    - /url: /gift-hampers/anniversary-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1695]: Anniversary Hampers
+                  - link "Premium Gift Hampers New" [ref=e1696] [cursor=pointer]:
+                    - /url: /premium-gift-hampers-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1697]:
+                      - generic [ref=e1698]: Premium Gift Hampers
+                      - generic [ref=e1699]: New
+                  - link "Wedding Hampers" [ref=e1700] [cursor=pointer]:
+                    - /url: /gift-hampers/wedding-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1702]: Wedding Hampers
+                  - link "LUXE Hampers New" [ref=e1703] [cursor=pointer]:
+                    - /url: /fnpluxe-hampers-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1704]:
+                      - generic [ref=e1705]: LUXE Hampers
+                      - generic [ref=e1706]: New
+                - generic [ref=e1707]:
+                  - generic [ref=e1708]: Thoughtfully Curated Gifts
+                  - link "All Gift Hampers" [ref=e1709] [cursor=pointer]:
+                    - /url: /gift-hampers-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1711]: All Gift Hampers
+                  - link "Healthy Hampers" [ref=e1712] [cursor=pointer]:
+                    - /url: /healthy-gift-hampers-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1714]: Healthy Hampers
+                  - link "Snacks Hampers" [ref=e1715] [cursor=pointer]:
+                    - /url: /snacks-hampers-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1717]: Snacks Hampers
+                  - link "Grooming Hampers" [ref=e1718] [cursor=pointer]:
+                    - /url: /cosmetics-n-spa-hampers-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1720]: Grooming Hampers
+                  - link "Tea n Coffee Hampers" [ref=e1721] [cursor=pointer]:
+                    - /url: /tea-n-coffee-hampers-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1723]: Tea n Coffee Hampers
+                  - link "Gourmet Hampers" [ref=e1724] [cursor=pointer]:
+                    - /url: /gourmet-hampers-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1726]: Gourmet Hampers
+                  - link "Chocolate Hampers" [ref=e1727] [cursor=pointer]:
+                    - /url: /chocolates-hampers-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1729]: Chocolate Hampers
+                  - link "Fruit Hampers" [ref=e1730] [cursor=pointer]:
+                    - /url: /fruit-hampers-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1732]: Fruit Hampers
+                  - link "Sweet Hampers" [ref=e1733] [cursor=pointer]:
+                    - /url: /sweet-hampers-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1735]: Sweet Hampers
+                  - link "Dry Fruit Hampers" [ref=e1736] [cursor=pointer]:
+                    - /url: /dry-fruits-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1738]: Dry Fruit Hampers
+                  - link "DIY Kits Hampers" [ref=e1739] [cursor=pointer]:
+                    - /url: /diy-kit-hampers-lp?promo=combosmenu_dt_hm
+                    - generic [ref=e1741]: DIY Kits Hampers
+                - generic [ref=e1742]:
+                  - generic [ref=e1743]:
+                    - generic [ref=e1744]: Featured Gift Sets
+                    - generic [ref=e1745]:
+                      - link "All Gift Sets" [ref=e1746] [cursor=pointer]:
+                        - /url: /combos-lp?promo=giftsetsmenu_dt_hm
+                        - generic [ref=e1748]: All Gift Sets
+                      - link "Best Sellers" [ref=e1749] [cursor=pointer]:
+                        - /url: /combos-bestsellers-lp?promo=combosmenu_dt_hm
+                        - generic [ref=e1751]: Best Sellers
+                      - link "New Arrivals" [ref=e1752] [cursor=pointer]:
+                        - /url: /new-arrival-combos-lp?promo=giftsetsmenu_dt_hm
+                        - generic [ref=e1754]: New Arrivals
+                      - link "Birthday Gift Sets" [ref=e1755] [cursor=pointer]:
+                        - /url: /combos/birthday-lp?promo=giftsetsmenu_dt_hm
+                        - generic [ref=e1757]: Birthday Gift Sets
+                      - link "Anniversary Gift Sets" [ref=e1758] [cursor=pointer]:
+                        - /url: /combos/anniversary-lp?promo=giftsetsmenu_dt_hm
+                        - generic [ref=e1760]: Anniversary Gift Sets
+                      - link "Wedding Gift Sets" [ref=e1761] [cursor=pointer]:
+                        - /url: /combos/wedding-lp?promo=giftsetsmenu_dt_hm
+                        - generic [ref=e1763]: Wedding Gift Sets
+                  - generic [ref=e1765]:
+                    - generic [ref=e1766]: Cake Surprise Sets
+                    - generic [ref=e1767]:
+                      - link "Cake Surprise Sets" [ref=e1768] [cursor=pointer]:
+                        - /url: /cake-combos-lp?promo=giftsetsmenu_dt_hm
+                        - generic [ref=e1770]: Cake Surprise Sets
+                      - link "Cake With Plants" [ref=e1771] [cursor=pointer]:
+                        - /url: /cakes-n-plants-lp?promo=combosmenu_dt_hm
+                        - generic [ref=e1773]: Cake With Plants
+                      - link "Cake With Chocolates" [ref=e1774] [cursor=pointer]:
+                        - /url: /cakes-n-chocolates-lp?promo=combosmenu_dt_hm
+                        - generic [ref=e1776]: Cake With Chocolates
+                      - link "Cakes n Guitarist" [ref=e1777] [cursor=pointer]:
+                        - /url: /cakes-n-guitarist-service-lp?promo=combosmenu_dt_hm
+                        - generic [ref=e1779]: Cakes n Guitarist
+                - generic [ref=e1781]:
+                  - generic [ref=e1782]: Floral Gift Sets
+                  - generic [ref=e1783]:
+                    - link "All Floral Gift Sets" [ref=e1784] [cursor=pointer]:
+                      - /url: /flower-combos-lp?promo=giftsetsmenu_dt_hm
+                      - generic [ref=e1786]: All Floral Gift Sets
+                    - link "Flowers n Cakes" [ref=e1787] [cursor=pointer]:
+                      - /url: /flowers-n-cakes-lp?promo=combosmenu_dt_hm
+                      - generic [ref=e1789]: Flowers n Cakes
+                    - link "Flowers n Chocolates" [ref=e1790] [cursor=pointer]:
+                      - /url: /flowers-n-chocolates-lp?promo=combosmenu_dt_hm
+                      - generic [ref=e1792]: Flowers n Chocolates
+                    - link "Flowers n Plants" [ref=e1793] [cursor=pointer]:
+                      - /url: /flowers-n-plants-lp?promo=combosmenu_dt_hm
+                      - generic [ref=e1795]: Flowers n Plants
+                    - link "Flowers n Guitarist" [ref=e1796] [cursor=pointer]:
+                      - /url: /flowers-n-guitarist-service-lp?promo=combosmenu_dt_hm
+                      - generic [ref=e1798]: Flowers n Guitarist
+                    - link "Birthday Flowers n Cakes" [ref=e1799] [cursor=pointer]:
+                      - /url: /flowers-n-cakes/birthday-lp?promo=combosmenu_dt_hm
+                      - generic [ref=e1801]: Birthday Flowers n Cakes
+                    - link "Birthday Flowers n Chocolates" [ref=e1802] [cursor=pointer]:
+                      - /url: /flowers-n-chocolates/birthday-lp?promo=combosmenu_dt_hm
+                      - generic [ref=e1804]: Birthday Flowers n Chocolates
+                    - link "Anniversary Flowers n Cakes" [ref=e1805] [cursor=pointer]:
+                      - /url: /flowers-n-cakes/anniversary-lp?promo=combosmenu_dt_hm
+                      - generic [ref=e1807]: Anniversary Flowers n Cakes
+                    - link "Anniversary Flowers n Chocolates" [ref=e1808] [cursor=pointer]:
+                      - /url: /flowers-n-chocolates/anniversary-lp?promo=combosmenu_dt_hm
+                      - generic [ref=e1810]: Anniversary Flowers n Chocolates
+                - link "Gift-Hampers" [ref=e1812] [cursor=pointer]:
+                  - /url: /premium-gift-hampers-lp?promo=combosmenu_dt_hm_banner
+                  - img "Gift-Hampers" [ref=e1815]
+            - navigation [ref=e1816]:
+              - button "Lifestyle" [ref=e1818] [cursor=pointer]:
+                - generic [ref=e1819]: Lifestyle
+                - img "down-arrow" [ref=e1821]
+              - generic [ref=e1823]:
+                - generic [ref=e1824]:
+                  - generic [ref=e1825]:
+                    - generic [ref=e1826]: Fashion
+                    - generic [ref=e1827]:
+                      - link "All Fashion Gifts" [ref=e1828] [cursor=pointer]:
+                        - /url: /fashion-n-lifestyle-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e1830]: All Fashion Gifts
+                      - link "Same Day Fashion Gifts" [ref=e1831] [cursor=pointer]:
+                        - /url: /same-day-delivery-fashion-n-lifestyle-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e1833]: Same Day Fashion Gifts
+                      - link "Tshirts New" [ref=e1834] [cursor=pointer]:
+                        - /url: /t-shirts-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e1835]:
+                          - generic [ref=e1836]: Tshirts
+                          - generic [ref=e1837]: New
+                      - link "Jewellery" [ref=e1838] [cursor=pointer]:
+                        - /url: /jewellery-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e1840]: Jewellery
+                      - link "Handbags n Bags" [ref=e1841] [cursor=pointer]:
+                        - /url: /handbag-gifts-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e1843]: Handbags n Bags
+                      - link "Perfumes New" [ref=e1844] [cursor=pointer]:
+                        - /url: /perfumes-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e1845]:
+                          - generic [ref=e1846]: Perfumes
+                          - generic [ref=e1847]: New
+                      - link "Cosmetics n Spa Hampers" [ref=e1848] [cursor=pointer]:
+                        - /url: /cosmetics-n-spa-hampers-lp?promo=othersgiftmenu_dt_hm
+                        - generic [ref=e1850]: Cosmetics n Spa Hampers
+                      - link "Accessories" [ref=e1851] [cursor=pointer]:
+                        - /url: /accessories-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e1853]: Accessories
+                      - link "Curated for Him" [ref=e1854] [cursor=pointer]:
+                        - /url: /accessories/for-him-lp?promo=othersgiftmenu_dt_hm
+                        - generic [ref=e1856]: Curated for Him
+                      - link "Curated for Her" [ref=e1857] [cursor=pointer]:
+                        - /url: /accessories/for-her-lp?promo=othersgiftmenu_dt_hm
+                        - generic [ref=e1859]: Curated for Her
+                      - link "Watches" [ref=e1860] [cursor=pointer]:
+                        - /url: /watches-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e1862]: Watches
+                  - generic [ref=e1864]:
+                    - generic [ref=e1865]: Kids Corner
+                    - generic [ref=e1866]:
+                      - link "All Gifts for Kids" [ref=e1867] [cursor=pointer]:
+                        - /url: /gifts/for-kids-lp?promo=othersgiftmenu_dt_hm
+                        - generic [ref=e1869]: All Gifts for Kids
+                      - link "Personalised Joys New" [ref=e1870] [cursor=pointer]:
+                        - /url: /personalised-gifts/for-kids-lp?promo=othersgiftmenu_dt_hm
+                        - generic [ref=e1871]:
+                          - generic [ref=e1872]: Personalised Joys
+                          - generic [ref=e1873]: New
+                      - link "Soft Toys" [ref=e1874] [cursor=pointer]:
+                        - /url: /soft-toys-lp?promo=othersgiftmenu_dt_hm
+                        - generic [ref=e1876]: Soft Toys
+                      - link "Game Zone" [ref=e1877] [cursor=pointer]:
+                        - /url: /toys-n-games-lp?promo=othersgiftmenu_dt_hm
+                        - generic [ref=e1879]: Game Zone
+                      - link "School Accessories" [ref=e1880] [cursor=pointer]:
+                        - /url: /school-accessories-lp?promo=othersgiftmenu_dt_hm
+                        - generic [ref=e1882]: School Accessories
+                - generic [ref=e1883]:
+                  - generic [ref=e1884]: Home n Living
+                  - link "All Home n Living Gifts" [ref=e1885] [cursor=pointer]:
+                    - /url: /home-living-gifts-lp?promo=othergiftsmenu_dt_hm
+                    - generic [ref=e1887]: All Home n Living Gifts
+                  - link "Home Décor" [ref=e1888] [cursor=pointer]:
+                    - /url: /home-decor-lp?promo=othergiftsmenu_dt_hm
+                    - generic [ref=e1890]: Home Décor
+                  - link "Photo Frames" [ref=e1891] [cursor=pointer]:
+                    - /url: /photo-frames-lp?promo=othergiftsmenu_dt_hm
+                    - generic [ref=e1893]: Photo Frames
+                  - link "Wall Art n Frames New" [ref=e1894] [cursor=pointer]:
+                    - /url: /wall-art-n-frames-lp?promo=othergiftsmenu_dt_hm
+                    - generic [ref=e1895]:
+                      - generic [ref=e1896]: Wall Art n Frames
+                      - generic [ref=e1897]: New
+                  - link "Toys n Games" [ref=e1898] [cursor=pointer]:
+                    - /url: /toys-n-games-lp?promo=othergiftsmenu_dt_hm
+                    - generic [ref=e1900]: Toys n Games
+                  - link "Kitchen n Dining" [ref=e1901] [cursor=pointer]:
+                    - /url: /kitchen-n-dining-gifts-lp?promo=othetsgiftmenu_dt_hm
+                    - generic [ref=e1903]: Kitchen n Dining
+                  - link "Spiritual Gifts New" [ref=e1904] [cursor=pointer]:
+                    - /url: /spiritual-gifts-lp?promo=othergiftsmenu_dt_hm
+                    - generic [ref=e1905]:
+                      - generic [ref=e1906]: Spiritual Gifts
+                      - generic [ref=e1907]: New
+                  - link "Soft Toys" [ref=e1908] [cursor=pointer]:
+                    - /url: /soft-toys-lp?promo=othersgiftmenu_dt_hm
+                    - generic [ref=e1910]: Soft Toys
+                  - link "Unusual Gifts" [ref=e1911] [cursor=pointer]:
+                    - /url: /unusual-gifts-lp?promo=othersgiftmenu_dt_hm
+                    - generic [ref=e1913]: Unusual Gifts
+                  - link "Electronics" [ref=e1914] [cursor=pointer]:
+                    - /url: /electronics-lp?promo=othergiftsmenu_dt_hm
+                    - generic [ref=e1916]: Electronics
+                  - link "Desktop Gifts" [ref=e1917] [cursor=pointer]:
+                    - /url: /desktop-gifts-lp?promo=othersgiftmenu_dt_hm
+                    - generic [ref=e1919]: Desktop Gifts
+                  - link "Garden Decor" [ref=e1920] [cursor=pointer]:
+                    - /url: /garden-decor-gifts-lp?promo=othergiftsmenu_dt_hm
+                    - generic [ref=e1922]: Garden Decor
+                  - link "Silver Gifts" [ref=e1923] [cursor=pointer]:
+                    - /url: /silver-gifts-lp?promo=othergiftsmenu_dt_hm
+                    - generic [ref=e1925]: Silver Gifts
+                  - link "Home Fragrances" [ref=e1926] [cursor=pointer]:
+                    - /url: /home-fragrances-lp?promo=othergiftsmenu_dt_hm
+                    - generic [ref=e1928]: Home Fragrances
+                  - link "Mugs" [ref=e1929] [cursor=pointer]:
+                    - /url: /mugs-lp?promo=othergiftsmenu_dt_hm
+                    - generic [ref=e1931]: Mugs
+                  - link "Zodiac Gifts" [ref=e1932] [cursor=pointer]:
+                    - /url: /zodiac-gifts-lp?promo=othersgiftmenu_dt_hm
+                    - generic [ref=e1934]: Zodiac Gifts
+                  - link "Neon Lights" [ref=e1935] [cursor=pointer]:
+                    - /url: /neon-light-gifts-lp?promo=othersgiftmenu_dt_hm
+                    - generic [ref=e1937]: Neon Lights
+                  - link "Sustainable Gifts" [ref=e1938] [cursor=pointer]:
+                    - /url: /sustainable-gifts-lp?promo=othersgiftmenu_dt_hm
+                    - generic [ref=e1940]: Sustainable Gifts
+                  - link "Cushions" [ref=e1941] [cursor=pointer]:
+                    - /url: /cushions-lp?promo=othergiftsmenu_dt_hm
+                    - generic [ref=e1943]: Cushions
+                  - link "Wish Trees" [ref=e1944] [cursor=pointer]:
+                    - /url: /wish-trees-lp?promo=othersgiftmenu_dt_hm
+                    - generic [ref=e1946]: Wish Trees
+                - generic [ref=e1948]:
+                  - generic [ref=e1949]: Gifts For
+                  - generic [ref=e1950]:
+                    - link "Her" [ref=e1951] [cursor=pointer]:
+                      - /url: /gifts/for-her?promo=othergiftsmenu_dt_hm
+                      - generic [ref=e1953]: Her
+                    - link "Him" [ref=e1954] [cursor=pointer]:
+                      - /url: /gifts/for-him-lp?promo=othergiftsmenu_dt_hm
+                      - generic [ref=e1956]: Him
+                    - link "Girlfriend" [ref=e1957] [cursor=pointer]:
+                      - /url: /gifts/for-girlfriend-lp?promo=othergiftsmenu_dt_hm
+                      - generic [ref=e1959]: Girlfriend
+                    - link "Boyfriend" [ref=e1960] [cursor=pointer]:
+                      - /url: /gifts/for-boyfriend-lp?promo=othergiftsmenu_dt_hm
+                      - generic [ref=e1962]: Boyfriend
+                    - link "Wife" [ref=e1963] [cursor=pointer]:
+                      - /url: /gifts/for-wife-lp?promo=othergiftsmenu_dt_hm
+                      - generic [ref=e1965]: Wife
+                    - link "Husband" [ref=e1966] [cursor=pointer]:
+                      - /url: /gifts/for-husband-lp?promo=othergiftsmenu_dt_hm
+                      - generic [ref=e1968]: Husband
+                    - link "Mother" [ref=e1969] [cursor=pointer]:
+                      - /url: /gifts/for-mother-lp?promo=othergiftsmenu_dt_hm
+                      - generic [ref=e1971]: Mother
+                    - link "Father" [ref=e1972] [cursor=pointer]:
+                      - /url: /gifts/for-father-lp?promo=othergiftsmenu_dt_hm
+                      - generic [ref=e1974]: Father
+                    - link "Sister" [ref=e1975] [cursor=pointer]:
+                      - /url: /gifts/for-sister-lp?promo=othergiftsmenu_dt_hm
+                      - generic [ref=e1977]: Sister
+                    - link "Brother" [ref=e1978] [cursor=pointer]:
+                      - /url: /gifts/for-brother-lp?promo=othergiftsmenu_dt_hm
+                      - generic [ref=e1980]: Brother
+                    - link "Daughter" [ref=e1981] [cursor=pointer]:
+                      - /url: /gifts/for-daughter-lp?promo=daughter_giftsforeveryone_dt_hm
+                      - generic [ref=e1983]: Daughter
+                    - link "Kids" [ref=e1984] [cursor=pointer]:
+                      - /url: /gifts/for-kids-lp?promo=othergiftsmenu_dt_hm
+                      - generic [ref=e1986]: Kids
+                    - link "New Born" [ref=e1987] [cursor=pointer]:
+                      - /url: /gifts/new-born-lp?promo=othersgiftmenu_dt_hm
+                      - generic [ref=e1989]: New Born
+                    - link "Girls" [ref=e1990] [cursor=pointer]:
+                      - /url: /gifts/for-girls-lp?promo=othersgiftmenu_dt_hm
+                      - generic [ref=e1992]: Girls
+                    - link "Boys" [ref=e1993] [cursor=pointer]:
+                      - /url: /gifts/for-boys-lp?promo=othersgiftmenu_dt_hm
+                      - generic [ref=e1995]: Boys
+                    - link "Pet Lovers" [ref=e1996] [cursor=pointer]:
+                      - /url: /gifts/for-pet-lovers-lp?promo=othersgiftmenu_dt_hm
+                      - generic [ref=e1998]: Pet Lovers
+                - generic [ref=e1999]:
+                  - generic [ref=e2000]:
+                    - generic [ref=e2001]: Shop By Personality
+                    - generic [ref=e2002]:
+                      - link "Fashionista" [ref=e2003] [cursor=pointer]:
+                        - /url: /fashion-n-lifestyle-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e2005]: Fashionista
+                      - link "Decor Enthusiast" [ref=e2006] [cursor=pointer]:
+                        - /url: /home-living-gifts-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e2008]: Decor Enthusiast
+                      - link "Gadget Guru" [ref=e2009] [cursor=pointer]:
+                        - /url: /electronics-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e2011]: Gadget Guru
+                      - link "Plant Lover" [ref=e2012] [cursor=pointer]:
+                        - /url: /plants-lp?promo=othersgiftmenu_dt_hm
+                        - generic [ref=e2014]: Plant Lover
+                      - link "Music Fan" [ref=e2015] [cursor=pointer]:
+                        - /url: /gifts/for-music-lovers-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e2017]: Music Fan
+                      - link "Wanderer" [ref=e2018] [cursor=pointer]:
+                        - /url: /gifts/for-travel-lovers-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e2020]: Wanderer
+                  - generic [ref=e2022]:
+                    - generic [ref=e2023]: Shop By Brands
+                    - generic [ref=e2024]:
+                      - link "Nuyug" [ref=e2025] [cursor=pointer]:
+                        - /url: /nuyug-gifts-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e2027]: Nuyug
+                      - link "Ritualistic" [ref=e2028] [cursor=pointer]:
+                        - /url: /ritualistic-gifts-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e2030]: Ritualistic
+                      - link "Carlton London" [ref=e2031] [cursor=pointer]:
+                        - /url: /carlton-london-gifts-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e2033]: Carlton London
+                      - link "Titan" [ref=e2034] [cursor=pointer]:
+                        - /url: /titan-gifts-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e2036]: Titan
+                      - link "Kimirica" [ref=e2037] [cursor=pointer]:
+                        - /url: /kimirica-gifts-lp?promo=othergiftsmenu_dt_hm
+                        - generic [ref=e2039]: Kimirica
+                - link "jewellery" [ref=e2041] [cursor=pointer]:
+                  - /url: /jewellery-lp?promo=banner2_MoreGifts
+                  - img "jewellery" [ref=e2044]
+            - navigation [ref=e2045]:
+              - button "International" [ref=e2047] [cursor=pointer]:
+                - generic [ref=e2048]: International
+                - img "down-arrow" [ref=e2050]
+              - generic [ref=e2052]:
+                - generic [ref=e2053]:
+                  - link "USA" [ref=e2054] [cursor=pointer]:
+                    - /url: /usa/gifts-lp?promo=globalmenu_dt_hm
+                  - link "Same day delivery gifts USA" [ref=e2055] [cursor=pointer]:
+                    - /url: /usa/same-day-delivery-gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2057]: Same day delivery gifts USA
+                  - link "New arrival gifts USA" [ref=e2058] [cursor=pointer]:
+                    - /url: /usa/new-arrival-gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2060]: New arrival gifts USA
+                  - link "Flowers USA" [ref=e2061] [cursor=pointer]:
+                    - /url: /usa/flowers-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2063]: Flowers USA
+                  - link "Gifts USA" [ref=e2064] [cursor=pointer]:
+                    - /url: /usa/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2066]: Gifts USA
+                  - link "Personalised Gifts USA" [ref=e2067] [cursor=pointer]:
+                    - /url: /usa/personalised-gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2069]: Personalised Gifts USA
+                  - link "Cakes USA" [ref=e2070] [cursor=pointer]:
+                    - /url: /usa/cakes-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2072]: Cakes USA
+                  - link "Chocolates USA" [ref=e2073] [cursor=pointer]:
+                    - /url: /usa/chocolates-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2075]: Chocolates USA
+                  - link "Sweets USA" [ref=e2076] [cursor=pointer]:
+                    - /url: /usa/sweets-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2078]: Sweets USA
+                  - link "Gift Baskets USA" [ref=e2079] [cursor=pointer]:
+                    - /url: /usa/gift-hampers-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2081]: Gift Baskets USA
+                  - link "Roses USA" [ref=e2082] [cursor=pointer]:
+                    - /url: /usa/roses-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2084]: Roses USA
+                - generic [ref=e2085]:
+                  - link "Canada" [ref=e2086] [cursor=pointer]:
+                    - /url: /canada/gifts-lp?promo=globalmenu_dt_hm
+                  - link "Same day delivery gifts Canada" [ref=e2087] [cursor=pointer]:
+                    - /url: /canada/same-day-delivery-gifts-lp?globalmenu_dt_hm
+                    - generic [ref=e2089]: Same day delivery gifts Canada
+                  - link "New arrival gifts Canada" [ref=e2090] [cursor=pointer]:
+                    - /url: /canada/new-arrival-gifts-lp?globalmenu_dt_hm
+                    - generic [ref=e2092]: New arrival gifts Canada
+                  - link "Flowers Canada" [ref=e2093] [cursor=pointer]:
+                    - /url: /canada/flowers-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2095]: Flowers Canada
+                  - link "Gifts Canada" [ref=e2096] [cursor=pointer]:
+                    - /url: /canada/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2098]: Gifts Canada
+                  - link "Personalised Gifts Canada" [ref=e2099] [cursor=pointer]:
+                    - /url: /canada/personalised-gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2101]: Personalised Gifts Canada
+                  - link "Cakes Canada" [ref=e2102] [cursor=pointer]:
+                    - /url: /canada/cakes-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2104]: Cakes Canada
+                  - link "Chocolates Canada" [ref=e2105] [cursor=pointer]:
+                    - /url: /canada/chocolates-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2107]: Chocolates Canada
+                  - link "Gift Baskets Canada" [ref=e2108] [cursor=pointer]:
+                    - /url: /canada/gift-hampers-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2110]: Gift Baskets Canada
+                - generic [ref=e2111]:
+                  - link "Australia" [ref=e2112] [cursor=pointer]:
+                    - /url: /australia/gifts-lp?promo=globalmenu_dt_hm
+                  - link "Same day delivery gifts Australia" [ref=e2113] [cursor=pointer]:
+                    - /url: /australia/same-day-delivery-gifts-lp?globalmenu_dt_hm
+                    - generic [ref=e2115]: Same day delivery gifts Australia
+                  - link "New arrival gifts Australia" [ref=e2116] [cursor=pointer]:
+                    - /url: /australia/new-arrival-gifts-lp?globalmenu_dt_hm
+                    - generic [ref=e2118]: New arrival gifts Australia
+                  - link "Flowers Australia" [ref=e2119] [cursor=pointer]:
+                    - /url: /australia/flowers-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2121]: Flowers Australia
+                  - link "Gifts Australia" [ref=e2122] [cursor=pointer]:
+                    - /url: /australia/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2124]: Gifts Australia
+                  - link "Personalised Gifts Australia" [ref=e2125] [cursor=pointer]:
+                    - /url: /australia/personalised-gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2127]: Personalised Gifts Australia
+                  - link "Cakes Australia" [ref=e2128] [cursor=pointer]:
+                    - /url: /australia/cakes-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2130]: Cakes Australia
+                  - link "Chocolates Australia" [ref=e2131] [cursor=pointer]:
+                    - /url: /australia/chocolates-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2133]: Chocolates Australia
+                  - link "Gift Baskets Australia" [ref=e2134] [cursor=pointer]:
+                    - /url: /australia/gift-hampers-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2136]: Gift Baskets Australia
+                - generic [ref=e2137]:
+                  - link "UK" [ref=e2138] [cursor=pointer]:
+                    - /url: /uk/gifts-lp?promo=globalmenu_dt_hm
+                  - link "Same day delivery gifts UK" [ref=e2139] [cursor=pointer]:
+                    - /url: /uk/same-day-delivery-gifts-lp?globalmenu_dt_hm
+                    - generic [ref=e2141]: Same day delivery gifts UK
+                  - link "New arrival gifts UK" [ref=e2142] [cursor=pointer]:
+                    - /url: /uk/new-arrival-gifts-lp?globalmenu_dt_hm
+                    - generic [ref=e2144]: New arrival gifts UK
+                  - link "Flowers UK" [ref=e2145] [cursor=pointer]:
+                    - /url: /uk/flowers-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2147]: Flowers UK
+                  - link "Gifts UK" [ref=e2148] [cursor=pointer]:
+                    - /url: /uk/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2150]: Gifts UK
+                  - link "Personalised Gifts UK" [ref=e2151] [cursor=pointer]:
+                    - /url: /uk/personalised-gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2153]: Personalised Gifts UK
+                  - link "Cakes UK" [ref=e2154] [cursor=pointer]:
+                    - /url: /uk/cakes-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2156]: Cakes UK
+                  - link "Chocolates UK" [ref=e2157] [cursor=pointer]:
+                    - /url: /uk/chocolates-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2159]: Chocolates UK
+                  - link "Gift Baskets UK" [ref=e2160] [cursor=pointer]:
+                    - /url: /uk/gift-hampers-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2162]: Gift Baskets UK
+                  - link "Roses UK" [ref=e2163] [cursor=pointer]:
+                    - /url: /uk/roses-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2165]: Roses UK
+                - generic [ref=e2166]:
+                  - link "UAE" [ref=e2167] [cursor=pointer]:
+                    - /url: /uae/gifts-lp?promo=globalmenu_dt_hm
+                  - link "Same day delivery gifts UAE" [ref=e2168] [cursor=pointer]:
+                    - /url: /uae/same-day-delivery-gifts-lp?globalmenu_dt_hm
+                    - generic [ref=e2170]: Same day delivery gifts UAE
+                  - link "New arrival gifts UAE" [ref=e2171] [cursor=pointer]:
+                    - /url: /uae/new-arrival-gifts-lp?globalmenu_dt_hm
+                    - generic [ref=e2173]: New arrival gifts UAE
+                  - link "Flowers UAE" [ref=e2174] [cursor=pointer]:
+                    - /url: /uae/flowers-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2176]: Flowers UAE
+                  - link "Gifts UAE" [ref=e2177] [cursor=pointer]:
+                    - /url: /uae/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2179]: Gifts UAE
+                  - link "Personalised Gifts UAE" [ref=e2180] [cursor=pointer]:
+                    - /url: /uae/personalised-gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2182]: Personalised Gifts UAE
+                  - link "Cakes UAE" [ref=e2183] [cursor=pointer]:
+                    - /url: /uae/cakes-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2185]: Cakes UAE
+                  - link "Chocolates UAE" [ref=e2186] [cursor=pointer]:
+                    - /url: /uae/chocolates-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2188]: Chocolates UAE
+                  - link "Sweets UAE" [ref=e2189] [cursor=pointer]:
+                    - /url: /uae/sweets-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2191]: Sweets UAE
+                  - link "Gift Baskets UAE" [ref=e2192] [cursor=pointer]:
+                    - /url: /uae/gift-hampers-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2194]: Gift Baskets UAE
+                  - link "Roses UAE" [ref=e2195] [cursor=pointer]:
+                    - /url: /uae/roses-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2197]: Roses UAE
+                - generic [ref=e2198]:
+                  - link "Singapore" [ref=e2199] [cursor=pointer]:
+                    - /url: https://www.fnp.sg?promo=globalmenu_dt_hm
+                  - link "Same day delivery gifts Singapore" [ref=e2200] [cursor=pointer]:
+                    - /url: https://www.fnp.sg/same-day-delivery-gifts?globalmenu_dt_hm
+                    - generic [ref=e2202]: Same day delivery gifts Singapore
+                  - link "Flowers Singapore" [ref=e2203] [cursor=pointer]:
+                    - /url: https://www.fnp.sg/all-flowers?promo=globalmenu_dt_hm
+                    - generic [ref=e2205]: Flowers Singapore
+                  - link "Gifts Singapore" [ref=e2206] [cursor=pointer]:
+                    - /url: https://www.fnp.sg/gifts?promo=globalmenu_dt_hm
+                    - generic [ref=e2208]: Gifts Singapore
+                  - link "Personalised Gifts Singapore" [ref=e2209] [cursor=pointer]:
+                    - /url: https://www.fnp.sg/personalised-gifts?promo=globalmenu_dt_hm
+                    - generic [ref=e2211]: Personalised Gifts Singapore
+                  - link "Cakes Singapore" [ref=e2212] [cursor=pointer]:
+                    - /url: https://www.fnp.sg/cakes?promo=globalmenu_dt_hm
+                    - generic [ref=e2214]: Cakes Singapore
+                  - link "Chocolates Singapore" [ref=e2215] [cursor=pointer]:
+                    - /url: https://www.fnp.sg/chocolates?promo=globalmenu_dt_hm
+                    - generic [ref=e2217]: Chocolates Singapore
+                  - link "Sweets Singapore" [ref=e2218] [cursor=pointer]:
+                    - /url: https://www.fnp.sg/sweets?promo=globalmenu_dt_hm
+                    - generic [ref=e2220]: Sweets Singapore
+                  - link "Gift Hampers Singapore" [ref=e2221] [cursor=pointer]:
+                    - /url: https://www.fnp.sg/gift-hampers?promo=globalmenu_dt_hm
+                    - generic [ref=e2223]: Gift Hampers Singapore
+                  - link "Roses Singapore" [ref=e2224] [cursor=pointer]:
+                    - /url: https://www.fnp.sg/roses?promo=globalmenu_dt_hm
+                    - generic [ref=e2226]: Roses Singapore
+                - generic [ref=e2227]:
+                  - link "Other Countries" [ref=e2228] [cursor=pointer]:
+                    - /url: /info/international?promo=globalmenu_dt_hm
+                  - link "Philippines" [ref=e2229] [cursor=pointer]:
+                    - /url: /philippines/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2231]: Philippines
+                  - link "Qatar" [ref=e2232] [cursor=pointer]:
+                    - /url: /qatar/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2234]: Qatar
+                  - link "Saudi Arabia" [ref=e2235] [cursor=pointer]:
+                    - /url: /saudi-arabia/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2237]: Saudi Arabia
+                  - link "Indonesia" [ref=e2238] [cursor=pointer]:
+                    - /url: /indonesia/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2240]: Indonesia
+                  - link "New Zealand" [ref=e2241] [cursor=pointer]:
+                    - /url: /new-zealand/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2243]: New Zealand
+                  - link "Germany" [ref=e2244] [cursor=pointer]:
+                    - /url: /germany/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2246]: Germany
+                  - link "Malaysia" [ref=e2247] [cursor=pointer]:
+                    - /url: /malaysia/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2249]: Malaysia
+                  - link "Netherlands" [ref=e2250] [cursor=pointer]:
+                    - /url: /netherlands/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2252]: Netherlands
+                  - link "Kuwait" [ref=e2253] [cursor=pointer]:
+                    - /url: /kuwait/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2255]: Kuwait
+                  - link "Oman" [ref=e2256] [cursor=pointer]:
+                    - /url: /oman/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2258]: Oman
+                  - link "Ireland" [ref=e2259] [cursor=pointer]:
+                    - /url: /ireland/gifts-lp?promo=globalmenu_dt_hm
+                    - generic [ref=e2261]: Ireland
+                  - link "Other Countries" [ref=e2262] [cursor=pointer]:
+                    - /url: /info/international?promo=globalmenu_dt_hm
+                    - generic [ref=e2264]: Other Countries
+      - generic [ref=e2268]:
+        - navigation "breadcrumb" [ref=e2270]:
+          - list [ref=e2271]:
+            - listitem [ref=e2272]:
+              - link "Home /" [ref=e2273] [cursor=pointer]:
+                - /url: /
+                - text: Home
+                - generic [ref=e2274]: /
+            - listitem [ref=e2275]:
+              - paragraph [ref=e2276]: "Digital Gifts: Inbox Your Wishes"
+        - generic [ref=e2278]:
+          - generic [ref=e2279]:
+            - generic [ref=e2280]:
+              - 'heading "Digital Gifts: Inbox Your Wishes" [level=1] [ref=e2281]'
+              - generic [ref=e2282]: 40 of 47 Gifts
+              - generic [ref=e2283]: "|"
+              - generic [ref=e2284]:
+                - generic [ref=e2286]:
+                  - img "category_rating_start_icon" [ref=e2287]
+                  - text: "4.9"
+                - button "1216 Reviews filter-chevron_icon" [ref=e2288] [cursor=pointer]:
+                  - text: "1216"
+                  - generic [ref=e2289]: Reviews
+                  - img "filter-chevron_icon" [ref=e2290]
+            - generic [ref=e2292] [cursor=pointer]:
+              - 'button "Sort by : Recommended" [ref=e2293]':
+                - text: "Sort by :"
+                - generic [ref=e2294]: Recommended
+              - img "filter-chevron_icon" [ref=e2296]
+          - generic [ref=e2297]:
+            - link "Love You Songs By Female Singer Video Call 25 30 Mins Love You Songs By Female Singer- Video Call 25-30 Mins ₹ 1,499 ₹ 999 33% OFF" [ref=e2300] [cursor=pointer]:
+              - /url: /gift/love-you-songs-by-female-singer-video-call-25-30-mins?pos=1
+              - generic [ref=e2301]:
+                - img "Love You Songs By Female Singer Video Call 25 30 Mins" [ref=e2308]
+                - generic [ref=e2309]:
+                  - generic [ref=e2310]: Love You Songs By Female Singer- Video Call 25-30 Mins
+                  - generic [ref=e2311]:
+                    - generic [ref=e2312]: ₹ 1,499
+                    - generic [ref=e2313]: ₹ 999
+                    - generic [ref=e2314]: 33% OFF
+            - link "Personalised Birthday Music Gift Personalised Birthday Music Gift ₹ 849 ₹ 599 29% OFF" [ref=e2318] [cursor=pointer]:
+              - /url: /gift/personalised-birthday-music-gift?pos=2
+              - generic [ref=e2319]:
+                - img "Personalised Birthday Music Gift" [ref=e2326]
+                - generic [ref=e2327]:
+                  - generic [ref=e2328]: Personalised Birthday Music Gift
+                  - generic [ref=e2329]:
+                    - generic [ref=e2330]: ₹ 849
+                    - generic [ref=e2331]: ₹ 599
+                    - generic [ref=e2332]: 29% OFF
+            - link "Guitarist on Video Call 10 15 Mins 1 2 Guitarist on Video Call 10-15 Mins ₹ 1,099 ₹ 599 45% OFF rating star 5 465 Best Seller" [ref=e2336] [cursor=pointer]:
+              - /url: /gift/guitarist-on-video-call-10-15-mins?pos=3
+              - generic [ref=e2337]:
+                - generic [ref=e2339]:
+                  - generic [ref=e2341]:
+                    - img "Guitarist on Video Call 10 15 Mins" [ref=e2344]
+                    - img [ref=e2347]
+                  - list [ref=e2349]:
+                    - listitem [ref=e2350]:
+                      - button "1" [ref=e2351]
+                    - listitem [ref=e2352]:
+                      - button "2" [ref=e2353]
+                - generic [ref=e2354]:
+                  - generic [ref=e2355]: Guitarist on Video Call 10-15 Mins
+                  - generic [ref=e2356]:
+                    - generic [ref=e2357]: ₹ 1,099
+                    - generic [ref=e2358]: ₹ 599
+                    - generic [ref=e2359]: 45% OFF
+                  - generic [ref=e2361]:
+                    - img "rating star" [ref=e2362]
+                    - generic [ref=e2363]: "5"
+                    - generic [ref=e2365]: "465"
+                  - status "Best Seller" [ref=e2368]
+            - link "Romantic Custom Anniversary Song Surprise Romantic Custom Anniversary Song Surprise ₹ 849 ₹ 599 29% OFF" [ref=e2372] [cursor=pointer]:
+              - /url: /gift/romantic-custom-anniversary-song-surprise?pos=4
+              - generic [ref=e2373]:
+                - img "Romantic Custom Anniversary Song Surprise" [ref=e2380]
+                - generic [ref=e2381]:
+                  - generic [ref=e2382]: Romantic Custom Anniversary Song Surprise
+                  - generic [ref=e2383]:
+                    - generic [ref=e2384]: ₹ 849
+                    - generic [ref=e2385]: ₹ 599
+                    - generic [ref=e2386]: 29% OFF
+            - link "Custom Apology Song Gift from the Heart Custom Apology Song Gift from the Heart ₹ 849 ₹ 599 29% OFF" [ref=e2390] [cursor=pointer]:
+              - /url: /gift/custom-apology-song-gift-from-the-heart?pos=5
+              - generic [ref=e2391]:
+                - img "Custom Apology Song Gift from the Heart" [ref=e2398]
+                - generic [ref=e2399]:
+                  - generic [ref=e2400]: Custom Apology Song Gift from the Heart
+                  - generic [ref=e2401]:
+                    - generic [ref=e2402]: ₹ 849
+                    - generic [ref=e2403]: ₹ 599
+                    - generic [ref=e2404]: 29% OFF
+            - link "Birthday Songs By Female Singer Video Call 25 30 Mins Birthday Songs By Female Singer- Video Call 25-30 Mins ₹ 1,499 ₹ 999 33% OFF" [ref=e2408] [cursor=pointer]:
+              - /url: /gift/birthday-songs-by-female-singer-video-call-25-30-mins?pos=6
+              - generic [ref=e2409]:
+                - img "Birthday Songs By Female Singer Video Call 25 30 Mins" [ref=e2416]
+                - generic [ref=e2417]:
+                  - generic [ref=e2418]: Birthday Songs By Female Singer- Video Call 25-30 Mins
+                  - generic [ref=e2419]:
+                    - generic [ref=e2420]: ₹ 1,499
+                    - generic [ref=e2421]: ₹ 999
+                    - generic [ref=e2422]: 33% OFF
+            - link "Custom Wedding Song Surprise Custom Wedding Song Surprise ₹ 849 ₹ 599 29% OFF" [ref=e2426] [cursor=pointer]:
+              - /url: /gift/custom-wedding-song-surprise?pos=7
+              - generic [ref=e2427]:
+                - img "Custom Wedding Song Surprise" [ref=e2434]
+                - generic [ref=e2435]:
+                  - generic [ref=e2436]: Custom Wedding Song Surprise
+                  - generic [ref=e2437]:
+                    - generic [ref=e2438]: ₹ 849
+                    - generic [ref=e2439]: ₹ 599
+                    - generic [ref=e2440]: 29% OFF
+            - link "Personalised Song Surprise for Congratulations Personalised Song Surprise for Congratulations ₹ 849 ₹ 599 29% OFF" [ref=e2444] [cursor=pointer]:
+              - /url: /gift/personalised-song-surprise-for-congratulations?pos=8
+              - generic [ref=e2445]:
+                - img "Personalised Song Surprise for Congratulations" [ref=e2452]
+                - generic [ref=e2453]:
+                  - generic [ref=e2454]: Personalised Song Surprise for Congratulations
+                  - generic [ref=e2455]:
+                    - generic [ref=e2456]: ₹ 849
+                    - generic [ref=e2457]: ₹ 599
+                    - generic [ref=e2458]: 29% OFF
+            - link "Birthday Special Guitarist on Video Call 10 15 Mins Birthday Special Guitarist on Video Call 10-15 Mins ₹ 1,099 ₹ 649 41% OFF rating star 5 233" [ref=e2462] [cursor=pointer]:
+              - /url: /gift/birthday-special-guitarist-on-video-call-10-15-mins?pos=9
+              - generic [ref=e2463]:
+                - img "Birthday Special Guitarist on Video Call 10 15 Mins" [ref=e2470]
+                - generic [ref=e2471]:
+                  - generic [ref=e2472]: Birthday Special Guitarist on Video Call 10-15 Mins
+                  - generic [ref=e2473]:
+                    - generic [ref=e2474]: ₹ 1,099
+                    - generic [ref=e2475]: ₹ 649
+                    - generic [ref=e2476]: 41% OFF
+                  - generic [ref=e2478]:
+                    - img "rating star" [ref=e2479]
+                    - generic [ref=e2480]: "5"
+                    - generic [ref=e2482]: "233"
+            - link "Birthday Songs on Video Call 10 15 Mins Birthday Songs on Video Call 10-15 Mins ₹ 1,099 ₹ 599 45% OFF" [ref=e2486] [cursor=pointer]:
+              - /url: /gift/birthday-songs-on-video-call-10-15-mins?pos=10
+              - generic [ref=e2487]:
+                - img "Birthday Songs on Video Call 10 15 Mins" [ref=e2494]
+                - generic [ref=e2495]:
+                  - generic [ref=e2496]: Birthday Songs on Video Call 10-15 Mins
+                  - generic [ref=e2497]:
+                    - generic [ref=e2498]: ₹ 1,099
+                    - generic [ref=e2499]: ₹ 599
+                    - generic [ref=e2500]: 45% OFF
+            - link "Miss You Special Guitarist on Video Call 10 15 Mins Miss You Special Guitarist on Video Call 10-15 Mins ₹ 1,099 ₹ 599 45% OFF" [ref=e2504] [cursor=pointer]:
+              - /url: /gift/miss-you-special-guitarist-on-video-call-10-15-mins?pos=11
+              - generic [ref=e2505]:
+                - img "Miss You Special Guitarist on Video Call 10 15 Mins" [ref=e2512]
+                - generic [ref=e2513]:
+                  - generic [ref=e2514]: Miss You Special Guitarist on Video Call 10-15 Mins
+                  - generic [ref=e2515]:
+                    - generic [ref=e2516]: ₹ 1,099
+                    - generic [ref=e2517]: ₹ 599
+                    - generic [ref=e2518]: 45% OFF
+            - link "Birthday Special Violinist on Video Call 25 30 Mins Birthday Special Violinist on Video Call 25-30 Mins ₹ 1,499 ₹ 999 33% OFF" [ref=e2522] [cursor=pointer]:
+              - /url: /gift/birthday-special-violinist-on-video-call-25-30-mins?pos=12
+              - generic [ref=e2523]:
+                - img "Birthday Special Violinist on Video Call 25 30 Mins" [ref=e2530]
+                - generic [ref=e2531]:
+                  - generic [ref=e2532]: Birthday Special Violinist on Video Call 25-30 Mins
+                  - generic [ref=e2533]:
+                    - generic [ref=e2534]: ₹ 1,499
+                    - generic [ref=e2535]: ₹ 999
+                    - generic [ref=e2536]: 33% OFF
+            - link "Custom Love Music Gift for Valentine Custom Love Music Gift ₹ 849 ₹ 599 29% OFF" [ref=e2540] [cursor=pointer]:
+              - /url: /gift/custom-love-music-gift-for-valentine?pos=13
+              - generic [ref=e2541]:
+                - img "Custom Love Music Gift for Valentine" [ref=e2548]
+                - generic [ref=e2549]:
+                  - generic [ref=e2550]: Custom Love Music Gift
+                  - generic [ref=e2551]:
+                    - generic [ref=e2552]: ₹ 849
+                    - generic [ref=e2553]: ₹ 599
+                    - generic [ref=e2554]: 29% OFF
+            - link "Custom New Year Wish Song Custom New Year Wish Song ₹ 849 ₹ 599 29% OFF" [ref=e2558] [cursor=pointer]:
+              - /url: /gift/custom-new-year-wish-song?pos=14
+              - generic [ref=e2559]:
+                - img "Custom New Year Wish Song" [ref=e2566]
+                - generic [ref=e2567]:
+                  - generic [ref=e2568]: Custom New Year Wish Song
+                  - generic [ref=e2569]:
+                    - generic [ref=e2570]: ₹ 849
+                    - generic [ref=e2571]: ₹ 599
+                    - generic [ref=e2572]: 29% OFF
+            - link "Anniversary Special Guitarist on Video Call 20 30 Mins Anniversary Special Guitarist on Video Call 20-30 Mins ₹ 1,299 ₹ 799 38% OFF" [ref=e2576] [cursor=pointer]:
+              - /url: /gift/anniversary-special-guitarist-on-video-call-20-30-mins?pos=15
+              - generic [ref=e2577]:
+                - img "Anniversary Special Guitarist on Video Call 20 30 Mins" [ref=e2584]
+                - generic [ref=e2585]:
+                  - generic [ref=e2586]: Anniversary Special Guitarist on Video Call 20-30 Mins
+                  - generic [ref=e2587]:
+                    - generic [ref=e2588]: ₹ 1,299
+                    - generic [ref=e2589]: ₹ 799
+                    - generic [ref=e2590]: 38% OFF
+            - link "Sorry Special Guitarist on Video Call 10 15 Mins Sorry Special Guitarist on Video Call 10-15 Mins ₹ 1,099 ₹ 599 45% OFF" [ref=e2594] [cursor=pointer]:
+              - /url: /gift/sorry-special-guitarist-on-video-call-10-15-mins?pos=16
+              - generic [ref=e2595]:
+                - img "Sorry Special Guitarist on Video Call 10 15 Mins" [ref=e2602]
+                - generic [ref=e2603]:
+                  - generic [ref=e2604]: Sorry Special Guitarist on Video Call 10-15 Mins
+                  - generic [ref=e2605]:
+                    - generic [ref=e2606]: ₹ 1,099
+                    - generic [ref=e2607]: ₹ 599
+                    - generic [ref=e2608]: 45% OFF
+            - link "There For You Special Guitarist on Video Call 10 15 Mins There For You Special Guitarist on Video Call 10-15 Mins ₹ 1,099 ₹ 599 45% OFF" [ref=e2612] [cursor=pointer]:
+              - /url: /gift/there-for-you-special-guitarist-on-video-call-10-15-mins?pos=17
+              - generic [ref=e2613]:
+                - img "There For You Special Guitarist on Video Call 10 15 Mins" [ref=e2620]
+                - generic [ref=e2621]:
+                  - generic [ref=e2622]: There For You Special Guitarist on Video Call 10-15 Mins
+                  - generic [ref=e2623]:
+                    - generic [ref=e2624]: ₹ 1,099
+                    - generic [ref=e2625]: ₹ 599
+                    - generic [ref=e2626]: 45% OFF
+            - link "Congratulations Special Guitarist on Video Call 20 30 Mins Congratulations Special Guitarist on Video Call 20-30 Mins ₹ 1,299 ₹ 799 38% OFF" [ref=e2630] [cursor=pointer]:
+              - /url: /gift/congratulations-special-guitarist-on-video-call-20-30-mins?pos=18
+              - generic [ref=e2631]:
+                - img "Congratulations Special Guitarist on Video Call 20 30 Mins" [ref=e2638]
+                - generic [ref=e2639]:
+                  - generic [ref=e2640]: Congratulations Special Guitarist on Video Call 20-30 Mins
+                  - generic [ref=e2641]:
+                    - generic [ref=e2642]: ₹ 1,299
+                    - generic [ref=e2643]: ₹ 799
+                    - generic [ref=e2644]: 38% OFF
+            - link "Custom Fathers Day Music Gift Custom Father’s Day Music Gift ₹ 849 ₹ 599 29% OFF" [ref=e2648] [cursor=pointer]:
+              - /url: /gift/custom-fathers-day-music-gift?pos=19
+              - generic [ref=e2649]:
+                - img "Custom Fathers Day Music Gift" [ref=e2656]
+                - generic [ref=e2657]:
+                  - generic [ref=e2658]: Custom Father’s Day Music Gift
+                  - generic [ref=e2659]:
+                    - generic [ref=e2660]: ₹ 849
+                    - generic [ref=e2661]: ₹ 599
+                    - generic [ref=e2662]: 29% OFF
+            - link "Personalised Friendship Day Song Gift Personalised Friendship Day Song Gift ₹ 849 ₹ 599 29% OFF" [ref=e2666] [cursor=pointer]:
+              - /url: /gift/personalised-friendship-day-song-gift?pos=20
+              - generic [ref=e2667]:
+                - img "Personalised Friendship Day Song Gift" [ref=e2674]
+                - generic [ref=e2675]:
+                  - generic [ref=e2676]: Personalised Friendship Day Song Gift
+                  - generic [ref=e2677]:
+                    - generic [ref=e2678]: ₹ 849
+                    - generic [ref=e2679]: ₹ 599
+                    - generic [ref=e2680]: 29% OFF
+            - link "Custom Marriage Proposal Song Gift Custom Marriage Proposal Song Gift ₹ 849 ₹ 599 29% OFF Propose in Style" [ref=e2684] [cursor=pointer]:
+              - /url: /gift/custom-marriage-proposal-song-gift?pos=21
+              - generic [ref=e2685]:
+                - img "Custom Marriage Proposal Song Gift" [ref=e2692]
+                - generic [ref=e2693]:
+                  - generic [ref=e2694]: Custom Marriage Proposal Song Gift
+                  - generic [ref=e2695]:
+                    - generic [ref=e2696]: ₹ 849
+                    - generic [ref=e2697]: ₹ 599
+                    - generic [ref=e2698]: 29% OFF
+                  - status "Propose in Style" [ref=e2701]
+            - link "Personalised Engagement Song Surprise Personalised Engagement Song Surprise ₹ 849 ₹ 599 29% OFF" [ref=e2705] [cursor=pointer]:
+              - /url: /gift/personalised-engagement-song-surprise?pos=22
+              - generic [ref=e2706]:
+                - img "Personalised Engagement Song Surprise" [ref=e2713]
+                - generic [ref=e2714]:
+                  - generic [ref=e2715]: Personalised Engagement Song Surprise
+                  - generic [ref=e2716]:
+                    - generic [ref=e2717]: ₹ 849
+                    - generic [ref=e2718]: ₹ 599
+                    - generic [ref=e2719]: 29% OFF
+            - link "For Dad Melodies on Video Call 10 15 Mins For Dad- Melodies on Video Call 10-15 Mins ₹ 1,099 ₹ 599 45% OFF" [ref=e2723] [cursor=pointer]:
+              - /url: /gift/for-dad-melodies-on-video-call-10-15-mins?pos=23
+              - generic [ref=e2724]:
+                - img "For Dad Melodies on Video Call 10 15 Mins" [ref=e2731]
+                - generic [ref=e2732]:
+                  - generic [ref=e2733]: For Dad- Melodies on Video Call 10-15 Mins
+                  - generic [ref=e2734]:
+                    - generic [ref=e2735]: ₹ 1,099
+                    - generic [ref=e2736]: ₹ 599
+                    - generic [ref=e2737]: 45% OFF
+            - link "I Am Sorry Songs On Video Call 10 15 Mins I Am Sorry Songs On Video Call 10-15 Mins ₹ 1,099 ₹ 599 45% OFF" [ref=e2741] [cursor=pointer]:
+              - /url: /gift/i-am-sorry-songs-on-video-call-10-15-mins?pos=24
+              - generic [ref=e2742]:
+                - img "I Am Sorry Songs On Video Call 10 15 Mins" [ref=e2749]
+                - generic [ref=e2750]:
+                  - generic [ref=e2751]: I Am Sorry Songs On Video Call 10-15 Mins
+                  - generic [ref=e2752]:
+                    - generic [ref=e2753]: ₹ 1,099
+                    - generic [ref=e2754]: ₹ 599
+                    - generic [ref=e2755]: 45% OFF
+            - link "Anniversary Special Violinist on Video Call 10 15 Mins Anniversary Special Violinist on Video Call 10-15 Mins ₹ 1,299 ₹ 799 38% OFF" [ref=e2759] [cursor=pointer]:
+              - /url: /gift/anniversary-special-violinist-on-video-call-10-15-mins?pos=25
+              - generic [ref=e2760]:
+                - img "Anniversary Special Violinist on Video Call 10 15 Mins" [ref=e2767]
+                - generic [ref=e2768]:
+                  - generic [ref=e2769]: Anniversary Special Violinist on Video Call 10-15 Mins
+                  - generic [ref=e2770]:
+                    - generic [ref=e2771]: ₹ 1,299
+                    - generic [ref=e2772]: ₹ 799
+                    - generic [ref=e2773]: 38% OFF
+            - link "Anniversary Songs on Video Call 10 15 Mins Anniversary Songs on Video Call 10-15 Mins ₹ 1,099 ₹ 599 45% OFF" [ref=e2777] [cursor=pointer]:
+              - /url: /gift/anniversary-songs-on-video-call-10-15-mins?pos=26
+              - generic [ref=e2778]:
+                - img "Anniversary Songs on Video Call 10 15 Mins" [ref=e2785]
+                - generic [ref=e2786]:
+                  - generic [ref=e2787]: Anniversary Songs on Video Call 10-15 Mins
+                  - generic [ref=e2788]:
+                    - generic [ref=e2789]: ₹ 1,099
+                    - generic [ref=e2790]: ₹ 599
+                    - generic [ref=e2791]: 45% OFF
+            - link "Birthday Special Flute Player on Video Call 10 15 Mins Birthday Special Flute Player on Video Call 10-15 Mins ₹ 1,299 ₹ 799 38% OFF" [ref=e2795] [cursor=pointer]:
+              - /url: /gift/birthday-special-flute-player-on-video-call-10-15-mins?pos=27
+              - generic [ref=e2796]:
+                - img "Birthday Special Flute Player on Video Call 10 15 Mins" [ref=e2803]
+                - generic [ref=e2804]:
+                  - generic [ref=e2805]: Birthday Special Flute Player on Video Call 10-15 Mins
+                  - generic [ref=e2806]:
+                    - generic [ref=e2807]: ₹ 1,299
+                    - generic [ref=e2808]: ₹ 799
+                    - generic [ref=e2809]: 38% OFF
+            - link "Thank You Special Guitarist on Video Call 10 15 Mins Thank You Special Guitarist on Video Call 10-15 Mins ₹ 1,099 ₹ 599 45% OFF" [ref=e2813] [cursor=pointer]:
+              - /url: /gift/thank-you-special-guitarist-on-video-call-10-15-mins?pos=28
+              - generic [ref=e2814]:
+                - img "Thank You Special Guitarist on Video Call 10 15 Mins" [ref=e2821]
+                - generic [ref=e2822]:
+                  - generic [ref=e2823]: Thank You Special Guitarist on Video Call 10-15 Mins
+                  - generic [ref=e2824]:
+                    - generic [ref=e2825]: ₹ 1,099
+                    - generic [ref=e2826]: ₹ 599
+                    - generic [ref=e2827]: 45% OFF
+            - link "Fresh Start Special Guitarist on Video Call 10 15 Mins Fresh Start Special Guitarist on Video Call 10-15 Mins ₹ 1,099 ₹ 599 45% OFF" [ref=e2831] [cursor=pointer]:
+              - /url: /gift/fresh-start-special-guitarist-on-video-call-10-15-mins?pos=29
+              - generic [ref=e2832]:
+                - img "Fresh Start Special Guitarist on Video Call 10 15 Mins" [ref=e2839]
+                - generic [ref=e2840]:
+                  - generic [ref=e2841]: Fresh Start Special Guitarist on Video Call 10-15 Mins
+                  - generic [ref=e2842]:
+                    - generic [ref=e2843]: ₹ 1,099
+                    - generic [ref=e2844]: ₹ 599
+                    - generic [ref=e2845]: 45% OFF
+            - link "For Brother Melodies on Video Call 10 15 Mins For Brother- Melodies on Video Call 10-15 Mins ₹ 1,099 ₹ 599 45% OFF" [ref=e2849] [cursor=pointer]:
+              - /url: /gift/for-brother-melodies-on-video-call-10-15-mins?pos=30
+              - generic [ref=e2850]:
+                - img "For Brother Melodies on Video Call 10 15 Mins" [ref=e2857]
+                - generic [ref=e2858]:
+                  - generic [ref=e2859]: For Brother- Melodies on Video Call 10-15 Mins
+                  - generic [ref=e2860]:
+                    - generic [ref=e2861]: ₹ 1,099
+                    - generic [ref=e2862]: ₹ 599
+                    - generic [ref=e2863]: 45% OFF
+            - link "Sorry Songs By Female Singer Video Call 10 15 Mins Sorry Songs By Female Singer -Video Call 10-15 Mins ₹ 1,299 ₹ 799 38% OFF" [ref=e2867] [cursor=pointer]:
+              - /url: /gift/sorry-songs-by-female-singer-video-call-10-15-mins?pos=31
+              - generic [ref=e2868]:
+                - img "Sorry Songs By Female Singer Video Call 10 15 Mins" [ref=e2875]
+                - generic [ref=e2876]:
+                  - generic [ref=e2877]: Sorry Songs By Female Singer -Video Call 10-15 Mins
+                  - generic [ref=e2878]:
+                    - generic [ref=e2879]: ₹ 1,299
+                    - generic [ref=e2880]: ₹ 799
+                    - generic [ref=e2881]: 38% OFF
+            - link "Congratulations Songs On Video Call 20 30 Mins Congratulations Songs On Video Call 20-30 Mins ₹ 1,299 ₹ 799 38% OFF" [ref=e2885] [cursor=pointer]:
+              - /url: /gift/congratulations-songs-on-video-call-20-30-mins?pos=32
+              - generic [ref=e2886]:
+                - img "Congratulations Songs On Video Call 20 30 Mins" [ref=e2893]
+                - generic [ref=e2894]:
+                  - generic [ref=e2895]: Congratulations Songs On Video Call 20-30 Mins
+                  - generic [ref=e2896]:
+                    - generic [ref=e2897]: ₹ 1,299
+                    - generic [ref=e2898]: ₹ 799
+                    - generic [ref=e2899]: 38% OFF
+            - link "Miss You Songs On Video Call 20 30 Mins Miss You Songs On Video Call 20-30 Mins ₹ 1,299 ₹ 799 38% OFF" [ref=e2903] [cursor=pointer]:
+              - /url: /gift/miss-you-songs-on-video-call-20-30-mins?pos=33
+              - generic [ref=e2904]:
+                - img "Miss You Songs On Video Call 20 30 Mins" [ref=e2911]
+                - generic [ref=e2912]:
+                  - generic [ref=e2913]: Miss You Songs On Video Call 20-30 Mins
+                  - generic [ref=e2914]:
+                    - generic [ref=e2915]: ₹ 1,299
+                    - generic [ref=e2916]: ₹ 799
+                    - generic [ref=e2917]: 38% OFF
+            - link "For Sister Melodies on Video Call 20 30 Mins For Sister- Melodies on Video Call 20-30 Mins ₹ 1,299 ₹ 799 38% OFF" [ref=e2921] [cursor=pointer]:
+              - /url: /gift/for-sister-melodies-on-video-call-20-30-mins?pos=34
+              - generic [ref=e2922]:
+                - img "For Sister Melodies on Video Call 20 30 Mins" [ref=e2929]
+                - generic [ref=e2930]:
+                  - generic [ref=e2931]: For Sister- Melodies on Video Call 20-30 Mins
+                  - generic [ref=e2932]:
+                    - generic [ref=e2933]: ₹ 1,299
+                    - generic [ref=e2934]: ₹ 799
+                    - generic [ref=e2935]: 38% OFF
+            - link "Anniversary Special Flute Player on Video Call 25 30 Mins Anniversary Special Flute Player on Video Call 25-30 Mins ₹ 1,499 ₹ 999 33% OFF" [ref=e2939] [cursor=pointer]:
+              - /url: /gift/anniversary-special-flute-player-on-video-call-25-30-mins?pos=35
+              - generic [ref=e2940]:
+                - img "Anniversary Special Flute Player on Video Call 25 30 Mins" [ref=e2947]
+                - generic [ref=e2948]:
+                  - generic [ref=e2949]: Anniversary Special Flute Player on Video Call 25-30 Mins
+                  - generic [ref=e2950]:
+                    - generic [ref=e2951]: ₹ 1,499
+                    - generic [ref=e2952]: ₹ 999
+                    - generic [ref=e2953]: 33% OFF
+            - link "I Am Sorry Tunes Violinist on Video Call 10 15 Mins I Am Sorry Tunes- Violinist on Video Call 10-15 Mins ₹ 1,299 ₹ 799 38% OFF" [ref=e2957] [cursor=pointer]:
+              - /url: /gift/i-am-sorry-tunes-violinist-on-video-call-10-15-mins?pos=36
+              - generic [ref=e2958]:
+                - img "I Am Sorry Tunes Violinist on Video Call 10 15 Mins" [ref=e2965]
+                - generic [ref=e2966]:
+                  - generic [ref=e2967]: I Am Sorry Tunes- Violinist on Video Call 10-15 Mins
+                  - generic [ref=e2968]:
+                    - generic [ref=e2969]: ₹ 1,299
+                    - generic [ref=e2970]: ₹ 799
+                    - generic [ref=e2971]: 38% OFF
+            - link "Friendship Songs On Video Call 20 30 Mins Friendship Songs On Video Call 20-30 Mins ₹ 1,299 ₹ 799 38% OFF" [ref=e2975] [cursor=pointer]:
+              - /url: /gift/friendship-songs-on-video-call-20-30-mins?pos=37
+              - generic [ref=e2976]:
+                - img "Friendship Songs On Video Call 20 30 Mins" [ref=e2983]
+                - generic [ref=e2984]:
+                  - generic [ref=e2985]: Friendship Songs On Video Call 20-30 Mins
+                  - generic [ref=e2986]:
+                    - generic [ref=e2987]: ₹ 1,299
+                    - generic [ref=e2988]: ₹ 799
+                    - generic [ref=e2989]: 38% OFF
+            - link "Get Well Soon Songs On Video Call 20 30 Mins Get Well Soon Songs On Video Call 20-30 Mins ₹ 1,299 ₹ 799 38% OFF" [ref=e2993] [cursor=pointer]:
+              - /url: /gift/get-well-soon-songs-on-video-call-20-30-mins?pos=38
+              - generic [ref=e2994]:
+                - img "Get Well Soon Songs On Video Call 20 30 Mins" [ref=e3001]
+                - generic [ref=e3002]:
+                  - generic [ref=e3003]: Get Well Soon Songs On Video Call 20-30 Mins
+                  - generic [ref=e3004]:
+                    - generic [ref=e3005]: ₹ 1,299
+                    - generic [ref=e3006]: ₹ 799
+                    - generic [ref=e3007]: 38% OFF
+            - link "Friendship Songs By Female Singer Video Call 25 30 Mins Friendship Songs By Female Singer - Video Call 25-30 Mins ₹ 1,499 ₹ 999 33% OFF" [ref=e3011] [cursor=pointer]:
+              - /url: /gift/friendship-songs-by-female-singer-video-call-25-30-mins?pos=39
+              - generic [ref=e3012]:
+                - img "Friendship Songs By Female Singer Video Call 25 30 Mins" [ref=e3019]
+                - generic [ref=e3020]:
+                  - generic [ref=e3021]: Friendship Songs By Female Singer - Video Call 25-30 Mins
+                  - generic [ref=e3022]:
+                    - generic [ref=e3023]: ₹ 1,499
+                    - generic [ref=e3024]: ₹ 999
+                    - generic [ref=e3025]: 33% OFF
+            - link "Love You Songs On Video Call 20 30 Mins Love You Songs On Video Call 20-30 Mins ₹ 1,299 ₹ 799 38% OFF" [ref=e3029] [cursor=pointer]:
+              - /url: /gift/love-you-songs-on-video-call-20-30-mins?pos=40
+              - generic [ref=e3030]:
+                - img "Love You Songs On Video Call 20 30 Mins" [ref=e3037]
+                - generic [ref=e3038]:
+                  - generic [ref=e3039]: Love You Songs On Video Call 20-30 Mins
+                  - generic [ref=e3040]:
+                    - generic [ref=e3041]: ₹ 1,299
+                    - generic [ref=e3042]: ₹ 799
+                    - generic [ref=e3043]: 38% OFF
+            - generic [ref=e3045]:
+              - generic [ref=e3046]:
+                - heading "Customer Reviews" [level=3] [ref=e3047]
+                - button "button" [ref=e3050] [cursor=pointer]:
+                  - generic [ref=e3053]:
+                    - paragraph [ref=e3054]: Show All Reviews
+                    - img "arrow-right" [ref=e3055]
+              - generic [ref=e3057]:
+                - generic [ref=e3059]:
+                  - generic [ref=e3064]:
+                    - generic [ref=e3065]:
+                      - generic [ref=e3066]: Mp
+                      - generic [ref=e3067]:
+                        - generic [ref=e3068]:
+                          - generic [ref=e3069]: Mahendra pratap
+                          - generic [ref=e3071]: 3 months ago
+                        - generic [ref=e3073]:
+                          - img "rating-star" [ref=e3075]
+                          - img "rating-star" [ref=e3077]
+                          - img "rating-star" [ref=e3079]
+                          - img "rating-star" [ref=e3081]
+                          - img "rating-star" [ref=e3083]
+                    - generic [ref=e3085]:
+                      - paragraph [ref=e3086]: Great Experience, enjoy a lot....
+                      - paragraph [ref=e3088]: read more
+                    - generic [ref=e3091]: City:Kaithal
+                  - generic [ref=e3096]:
+                    - generic [ref=e3097]:
+                      - generic [ref=e3098]: S
+                      - generic [ref=e3099]:
+                        - generic [ref=e3100]:
+                          - generic [ref=e3101]: Shraddha
+                          - generic [ref=e3103]: 1 year ago
+                        - generic [ref=e3105]:
+                          - img "rating-star" [ref=e3107]
+                          - img "rating-star" [ref=e3109]
+                          - img "rating-star" [ref=e3111]
+                          - img "rating-star" [ref=e3113]
+                          - img "rating-star" [ref=e3115]
+                    - paragraph [ref=e3117]: It was superb🥳
+                    - generic [ref=e3120]: City:Mumbai
+                  - generic [ref=e3125]:
+                    - generic [ref=e3126]:
+                      - generic [ref=e3127]: NA
+                      - generic [ref=e3128]:
+                        - generic [ref=e3129]:
+                          - generic [ref=e3130]: Nikita Agrawal
+                          - generic [ref=e3132]: 1 year ago
+                        - generic [ref=e3134]:
+                          - img "rating-star" [ref=e3136]
+                          - img "rating-star" [ref=e3138]
+                          - img "rating-star" [ref=e3140]
+                          - img "rating-star" [ref=e3142]
+                          - img "rating-star" [ref=e3144]
+                    - paragraph [ref=e3146]: 10/10
+                    - generic [ref=e3148]:
+                      - generic [ref=e3149]: Occasion:anniversary
+                      - generic [ref=e3150]: City:Erode
+                  - generic [ref=e3155]:
+                    - generic [ref=e3156]:
+                      - generic [ref=e3157]: SS
+                      - generic [ref=e3158]:
+                        - generic [ref=e3159]:
+                          - generic [ref=e3160]: Sarvesh Sangle
+                          - generic [ref=e3162]: 1 year ago
+                        - generic [ref=e3164]:
+                          - img "rating-star" [ref=e3166]
+                          - img "rating-star" [ref=e3168]
+                          - img "rating-star" [ref=e3170]
+                          - img "rating-star" [ref=e3172]
+                          - img "empty-star" [ref=e3174]
+                    - paragraph [ref=e3176]: Ok
+                    - generic [ref=e3178]:
+                      - generic [ref=e3179]: Occasion:birthday
+                      - generic [ref=e3180]: City:delhi
+                  - generic [ref=e3185]:
+                    - generic [ref=e3186]:
+                      - generic [ref=e3187]: S
+                      - generic [ref=e3188]:
+                        - generic [ref=e3189]:
+                          - generic [ref=e3190]: Shahbaz
+                          - generic [ref=e3192]: 1 year ago
+                        - generic [ref=e3194]:
+                          - img [ref=e3196]
+                          - img [ref=e3198]
+                          - img [ref=e3200]
+                          - img [ref=e3202]
+                          - img [ref=e3204]
+                    - paragraph [ref=e3206]: Very good
+                    - generic [ref=e3208]:
+                      - generic [ref=e3209]: Occasion:anniversary
+                      - generic [ref=e3210]: City:delhi
+                  - generic [ref=e3215]:
+                    - generic [ref=e3216]:
+                      - generic [ref=e3217]: VT
+                      - generic [ref=e3218]:
+                        - generic [ref=e3219]:
+                          - generic [ref=e3220]: Vikas Tyagi
+                          - generic [ref=e3222]: 1 year ago
+                        - generic [ref=e3224]:
+                          - img [ref=e3226]
+                          - img [ref=e3228]
+                          - img [ref=e3230]
+                          - img [ref=e3232]
+                          - img [ref=e3234]
+                    - generic [ref=e3236]:
+                      - paragraph [ref=e3237]: Excellent singing and brillian...
+                      - paragraph [ref=e3239]: read more
+                    - generic [ref=e3241]:
+                      - generic [ref=e3242]: Occasion:anniversary
+                      - generic [ref=e3243]: City:Bhopal
+                  - generic [ref=e3248]:
+                    - generic [ref=e3249]:
+                      - generic [ref=e3250]: ST
+                      - generic [ref=e3251]:
+                        - generic [ref=e3252]:
+                          - generic [ref=e3253]: Simran Tekchandani
+                          - generic [ref=e3255]: 2 years ago
+                        - generic [ref=e3257]:
+                          - img [ref=e3259]
+                          - img [ref=e3261]
+                          - img [ref=e3263]
+                          - img [ref=e3265]
+                          - img [ref=e3267]
+                    - generic [ref=e3269]:
+                      - paragraph [ref=e3270]: Thank you so much for all the ...
+                      - paragraph [ref=e3272]: read more
+                    - generic [ref=e3274]:
+                      - generic [ref=e3275]: Occasion:birthday
+                      - generic [ref=e3276]: City:noida
+                  - generic [ref=e3281]:
+                    - generic [ref=e3282]:
+                      - generic [ref=e3283]: AS
+                      - generic [ref=e3284]:
+                        - generic [ref=e3285]:
+                          - generic [ref=e3286]: Abhinay Shrivastava
+                          - generic [ref=e3288]: 2 years ago
+                        - generic [ref=e3290]:
+                          - img [ref=e3292]
+                          - img [ref=e3294]
+                          - img [ref=e3296]
+                          - img [ref=e3298]
+                          - img [ref=e3300]
+                    - paragraph [ref=e3302]: All good
+                    - generic [ref=e3304]:
+                      - generic [ref=e3305]: Occasion:birthday
+                      - generic [ref=e3306]: City:Delhi
+                  - generic [ref=e3311]:
+                    - generic [ref=e3312]:
+                      - generic [ref=e3313]: SS
+                      - generic [ref=e3314]:
+                        - generic [ref=e3315]:
+                          - generic [ref=e3316]: Smita Singh
+                          - generic [ref=e3318]: 2 years ago
+                        - generic [ref=e3320]:
+                          - img [ref=e3322]
+                          - img [ref=e3324]
+                          - img [ref=e3326]
+                          - img [ref=e3328]
+                          - img [ref=e3330]
+                    - paragraph [ref=e3332]: Thanx for very fast delivery
+                    - generic [ref=e3334]:
+                      - generic [ref=e3335]: Occasion:Anniversary
+                      - generic [ref=e3336]: City:delhi
+                  - generic [ref=e3341]:
+                    - generic [ref=e3342]:
+                      - generic [ref=e3343]: KG
+                      - generic [ref=e3344]:
+                        - generic [ref=e3345]:
+                          - generic [ref=e3346]: Karan Grover
+                          - generic [ref=e3348]: 2 years ago
+                        - generic [ref=e3350]:
+                          - img [ref=e3352]
+                          - img [ref=e3354]
+                          - img [ref=e3356]
+                          - img [ref=e3358]
+                          - img [ref=e3360]
+                    - generic [ref=e3362]:
+                      - paragraph [ref=e3363]: Thankyou guys for all your hel...
+                      - paragraph [ref=e3365]: read more
+                    - generic [ref=e3368]: City:delhi
+                  - generic [ref=e3373]:
+                    - generic [ref=e3374]:
+                      - generic [ref=e3375]: MB
+                      - generic [ref=e3376]:
+                        - generic [ref=e3377]:
+                          - generic [ref=e3378]: Maryjoe Babu
+                          - generic [ref=e3380]: 2 years ago
+                        - generic [ref=e3382]:
+                          - img [ref=e3384]
+                          - img [ref=e3386]
+                          - img [ref=e3388]
+                          - img [ref=e3390]
+                          - img [ref=e3392]
+                    - paragraph [ref=e3394]: Great work
+                    - generic [ref=e3397]: City:_NA_
+                  - generic [ref=e3402]:
+                    - generic [ref=e3403]:
+                      - generic [ref=e3404]: s
+                      - generic [ref=e3405]:
+                        - generic [ref=e3406]:
+                          - generic [ref=e3407]: sonia
+                          - generic [ref=e3409]: 2 years ago
+                        - generic [ref=e3411]:
+                          - img [ref=e3413]
+                          - img [ref=e3415]
+                          - img [ref=e3417]
+                          - img [ref=e3419]
+                          - img [ref=e3421]
+                    - paragraph [ref=e3423]: perfect
+                    - generic [ref=e3425]:
+                      - generic [ref=e3426]: Occasion:birthday
+                      - generic [ref=e3427]: City:pune
+                - img "right arrow" [ref=e3429] [cursor=pointer]
+    - contentinfo [ref=e3431]:
+      - generic [ref=e3432]:
+        - generic [ref=e3433]:
+          - generic [ref=e3434]:
+            - img "Worldwide Delivery" [ref=e3436]
+            - generic [ref=e3437]:
+              - paragraph [ref=e3438]: Worldwide Delivery
+              - paragraph [ref=e3439]: We deliver gifts to over 70 countries
+          - generic [ref=e3440]:
+            - img "100% Safe & Secure Payments" [ref=e3442]
+            - generic [ref=e3443]:
+              - paragraph [ref=e3444]: 100% Safe & Secure Payments
+              - paragraph [ref=e3445]: Pay using secure payment methods
+          - generic [ref=e3446]:
+            - img "Dedicated Help Center" [ref=e3448]
+            - generic [ref=e3449]:
+              - paragraph [ref=e3450]: Dedicated Help Center
+              - button "button" [ref=e3452] [cursor=pointer]:
+                - generic [ref=e3454]: Chat With Us
+        - generic [ref=e3456]:
+          - generic [ref=e3457]:
+            - heading "Policy Info" [level=6] [ref=e3458]
+            - list [ref=e3459]:
+              - listitem [ref=e3460]:
+                - link "Terms & Conditions" [ref=e3461] [cursor=pointer]:
+                  - /url: /info/terms-and-conditions
+              - listitem [ref=e3462]:
+                - link "Privacy Policy" [ref=e3463] [cursor=pointer]:
+                  - /url: /info/privacy-policy
+              - listitem [ref=e3464]:
+                - link "Terms of Use" [ref=e3465] [cursor=pointer]:
+                  - /url: /info/terms-of-use
+              - listitem [ref=e3466]:
+                - link "Disclaimer" [ref=e3467] [cursor=pointer]:
+                  - /url: /info/disclaimer
+          - generic [ref=e3468]:
+            - heading "About Company" [level=6] [ref=e3469]
+            - list [ref=e3470]:
+              - listitem [ref=e3471]:
+                - link "About Us" [ref=e3472] [cursor=pointer]:
+                  - /url: /info/about-us
+              - listitem [ref=e3473]:
+                - link "FNP Team" [ref=e3474] [cursor=pointer]:
+                  - /url: /info/fnp-team
+              - listitem [ref=e3475]:
+                - link "Careers" [ref=e3476] [cursor=pointer]:
+                  - /url: /info/careers
+              - listitem [ref=e3477]:
+                - link "Testimonials" [ref=e3478] [cursor=pointer]:
+                  - /url: /info/testimonials
+              - listitem [ref=e3479]:
+                - link "News Room" [ref=e3480] [cursor=pointer]:
+                  - /url: /info/news
+              - listitem [ref=e3481]:
+                - link "Blog" [ref=e3482] [cursor=pointer]:
+                  - /url: /blog/
+          - generic [ref=e3483]:
+            - heading "FNP business" [level=6] [ref=e3484]
+            - list [ref=e3485]:
+              - listitem [ref=e3486]:
+                - link "Decoration Services" [ref=e3487] [cursor=pointer]:
+                  - /url: /decoration-services-lp
+              - listitem [ref=e3488]:
+                - link "Corporate Service" [ref=e3489] [cursor=pointer]:
+                  - /url: /corporate/
+              - listitem [ref=e3490]:
+                - link "Affiliate Program" [ref=e3491] [cursor=pointer]:
+                  - /url: /info/affiliate-program
+              - listitem [ref=e3492]:
+                - link "Retails Stores" [ref=e3493] [cursor=pointer]:
+                  - /url: /info/retail-stores
+              - listitem [ref=e3494]:
+                - link "Franchise" [ref=e3495] [cursor=pointer]:
+                  - /url: /info/franchise-programme
+          - generic [ref=e3496]:
+            - heading "Need Help ?" [level=6] [ref=e3497]
+            - list [ref=e3498]:
+              - listitem [ref=e3499]:
+                - link "Contact Us" [ref=e3500] [cursor=pointer]:
+                  - /url: /info/contact-us
+              - listitem [ref=e3501]:
+                - link "FAQs" [ref=e3502] [cursor=pointer]:
+                  - /url: /info/faq
+          - generic [ref=e3503]:
+            - heading "International Presence" [level=6] [ref=e3504]
+            - list [ref=e3505]:
+              - listitem [ref=e3506]:
+                - link "Dubai" [ref=e3507] [cursor=pointer]:
+                  - /url: https://www.fnp.ae/
+              - listitem [ref=e3508]:
+                - link "Qatar" [ref=e3509] [cursor=pointer]:
+                  - /url: https://www.fnp.qa/
+              - listitem [ref=e3510]:
+                - link "Saudi Arabia" [ref=e3511] [cursor=pointer]:
+                  - /url: https://www.fnp.sa/
+              - listitem [ref=e3512]:
+                - link "Singapore" [ref=e3513] [cursor=pointer]:
+                  - /url: https://www.fnp.sg/
+          - generic [ref=e3514]:
+            - heading "Subscribe Now" [level=6] [ref=e3515]
+            - paragraph [ref=e3516]: Get updates on promotions and offers coupons.
+            - generic [ref=e3519]:
+              - generic:
+                - img "email icon"
+              - textbox "subscription-input" [ref=e3520]:
+                - /placeholder: Enter email address
+              - img "right arrow icon" [ref=e3523] [cursor=pointer]
+        - generic [ref=e3524]:
+          - paragraph [ref=e3525]: "Company Name: FNP E Retail Private Limited | CIN: U52100HR2021PTC118882 | Regd. Office: Plot No. 75P, Sector-44, Gurugram, Haryana - 122003"
+          - paragraph [ref=e3526]: "Telephone No.: +91-11-26802680 | Grievance Resolution Officer Name: Mr. Sagarjit Karmakar | Contact No.: +91 9212422000 / 9755-248-248 | Email ID - grievance@fnp.com"
+          - link "Corporate Social Responsibility (CSR) Policy" [ref=e3527] [cursor=pointer]:
+            - /url: /info/csr-policy
+        - generic [ref=e3528]:
+          - list [ref=e3530]:
+            - listitem [ref=e3531]:
+              - link "facebook" [ref=e3532] [cursor=pointer]:
+                - /url: https://www.facebook.com/fnpind
+                - img "facebook" [ref=e3533]
+            - listitem [ref=e3534]:
+              - link "twitter" [ref=e3535] [cursor=pointer]:
+                - /url: https://twitter.com/fnp_ind
+                - img "twitter" [ref=e3536]
+            - listitem [ref=e3537]:
+              - link "instagram" [ref=e3538] [cursor=pointer]:
+                - /url: https://www.instagram.com/fernsnpetalsindia/?hl=en
+                - img "instagram" [ref=e3539]
+            - listitem [ref=e3540]:
+              - link "linkedin" [ref=e3541] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/fnp-world
+                - img "linkedin" [ref=e3542]
+          - paragraph [ref=e3544]: © 1994-2026 fnp.com.All rights reserved.
+          - list [ref=e3546]:
+            - listitem [ref=e3547]:
+              - img "visa" [ref=e3548]
+            - listitem [ref=e3549]:
+              - img "mastercard" [ref=e3550]
+            - listitem [ref=e3551]:
+              - img "rupay" [ref=e3552]
+            - listitem [ref=e3553]:
+              - img "diners-club" [ref=e3554]
+            - listitem [ref=e3555]:
+              - img "american-express" [ref=e3556]
+  - alert [ref=e3557]
+```
+
+# Test source
+
+```ts
+  18  |         blockers.forEach(el => el.remove());
+  19  |       });
+  20  |       console.log('✅ Removed blocking elements');
+  21  |     } catch (error) {
+  22  |       console.log('📝 No blocking elements to remove');
+  23  |     }
+  24  | 
+  25  |     // Step 2: Ensure Date Picker is open
+  26  |     const popover = page.getByTestId('popover');
+  27  |     let isPickerOpen = await popover.isVisible({ timeout: 3000 });
+  28  | 
+  29  |     if (!isPickerOpen) {
+  30  |       console.log('⚠️ Date picker popover not visible, attempting to trigger it...');
+  31  |       const triggerStrategies = [
+  32  |         { type: 'text', value: 'Later', force: true },
+  33  |         { type: 'testid', value: 'delivery_date_selector' },
+  34  |         { type: 'text', value: 'Select Delivery Date' },
+  35  |         { type: 'text', value: 'Select Date' },
+  36  |         { type: 'testid', value: 'locationLock' }
+  37  |       ];
+  38  | 
+  39  |       for (const strategy of triggerStrategies) {
+  40  |         try {
+  41  |           const locator = strategy.type === 'testid'
+  42  |             ? page.getByTestId(strategy.value)
+  43  |             : page.getByText(strategy.value).first();
+  44  | 
+  45  |           if (await locator.isVisible({ timeout: 2000 })) {
+  46  |             await locator.click({ force: !!strategy.force });
+  47  |             console.log(`✅ Clicked ${strategy.value} strategy to trigger picker`);
+  48  |             await page.waitForTimeout(1000);
+  49  |             if (await popover.isVisible({ timeout: 3000 })) {
+  50  |               isPickerOpen = true;
+  51  |               break;
+  52  |             }
+  53  |           }
+  54  |         } catch (e) {
+  55  |           // Continue to next strategy
+  56  |         }
+  57  |       }
+  58  |     }
+  59  | 
+  60  |     // Step 3: Click "Later" button if needed (common pattern for FNP PDP)
+  61  |     if (isPickerOpen) {
+  62  |       try {
+  63  |         const laterBtn = page.getByTestId('popover').getByText('Later');
+  64  |         if (await laterBtn.isVisible({ timeout: 2000 })) {
+  65  |           await laterBtn.click({ force: true });
+  66  |           console.log('✅ Clicked Later button inside popover');
+  67  |           await page.waitForTimeout(1000);
+  68  |         }
+  69  |       } catch (e) {
+  70  |         console.log('📝 Later button not found inside popover, proceeding');
+  71  |       }
+  72  |     } else {
+  73  |       try {
+  74  |         const laterBtn = page.getByText('Later').first();  // fixed: .first() not .first
+  75  |         await laterBtn.waitFor({ state: 'visible', timeout: 5000 });
+  76  |         await laterBtn.click({ force: true });
+  77  |         console.log('✅ Clicked primary Later button');
+  78  |         await page.waitForTimeout(1000);
+  79  |         isPickerOpen = true;
+  80  |       } catch (error) {
+  81  |         console.log('⚠️ Primary Later button not found, continuing to date selection');
+  82  |       }
+  83  |     }
+  84  | 
+  85  |     // Step 4: Navigate to next month (optional)
+  86  |     if (navigateToNextMonth) {
+  87  |       try {
+  88  |         await page.getByTestId('popover').getByRole('img', { name: 'arrow-right' }).click({ timeout: 5000 });
+  89  |         console.log('✅ Navigated to next month');
+  90  |         await page.waitForTimeout(1000);
+  91  |       } catch (error) {
+  92  |         console.log('⚠️ Could not navigate to next month, using current month dates');
+  93  |       }
+  94  |     }
+  95  | 
+  96  |     // Step 5: Select date with fallback logic
+  97  |     const datesToTry = [preferredDate, ...fallbackDates];
+  98  |     let selectedDate = null;
+  99  | 
+  100 |     for (const date of datesToTry) {
+  101 |       try {
+  102 |         await page.getByTestId('popover').getByText(date, { exact: true }).click({ timeout: 2000 });
+  103 |         console.log(`✅ Selected date: ${date}`);
+  104 |         selectedDate = date;
+  105 |         break;
+  106 |       } catch (e) {
+  107 |         // Continue to next date
+  108 |       }
+  109 |     }
+  110 | 
+  111 |     if (!selectedDate) {
+  112 |       try {
+  113 |         const anyDate = page.locator('.react-datepicker__day:not(.react-datepicker__day--disabled)').first();
+  114 |         await anyDate.click({ timeout: 2000 });
+  115 |         console.log('✅ Selected first available fallback date');
+  116 |         selectedDate = 'fallback';
+  117 |       } catch (e) {
+> 118 |         throw new Error('Could not select any delivery date');
+      |               ^ Error: Could not select any delivery date
+  119 |       }
+  120 |     }
+  121 | 
+  122 |     await page.waitForTimeout(1000);
+  123 | 
+  124 |     // Step 6: Select time slot with robust fallback logic
+  125 |     let selectedTimeSlot = null;
+  126 | 
+  127 |     // Strategy 1: Try "Fixed Time Delivery" + specific slot
+  128 |     try {
+  129 |       await page.getByText('Fixed Time Delivery').click({ timeout: 3000 });
+  130 |       console.log('✅ Clicked Fixed Time Delivery');
+  131 |       await page.waitForTimeout(500);
+  132 | 
+  133 |       try {
+  134 |         await page.getByText('pm - 10 pm').click({ timeout: 2000 });
+  135 |         console.log('✅ Selected time slot: pm - 10 pm');
+  136 |         selectedTimeSlot = 'pm - 10 pm (Fixed)';
+  137 |         return { date: selectedDate, timeSlot: selectedTimeSlot };
+  138 |       } catch (e) {
+  139 |         console.log('📝 pm - 10 pm not available under Fixed Time Delivery');
+  140 |       }
+  141 |     } catch (error) {
+  142 |       console.log('📝 Fixed Time Delivery not available, trying Morning Delivery');
+  143 |     }
+  144 | 
+  145 |     // Strategy 2: Try "Morning Delivery" + specific slot
+  146 |     try {
+  147 |       await page.getByText('Morning Delivery').click({ timeout: 3000 });
+  148 |       console.log('✅ Clicked Morning Delivery');
+  149 |       await page.waitForTimeout(500);
+  150 | 
+  151 |       try {
+  152 |         await page.getByText('am - 9 am').click({ timeout: 2000 });
+  153 |         console.log('✅ Selected time slot: am - 9 am');
+  154 |         selectedTimeSlot = 'am - 9 am (Morning)';
+  155 |         return { date: selectedDate, timeSlot: selectedTimeSlot };
+  156 |       } catch (e) {
+  157 |         console.log('📝 am - 9 am not available under Morning Delivery');
+  158 |       }
+  159 |     } catch (error) {
+  160 |       console.log('📝 Morning Delivery not available, trying first available slot');
+  161 |     }
+  162 | 
+  163 |     // Strategy 3: Try 'am - 9 am' pattern
+  164 |     try {
+  165 |       await page.getByText('am - 9 am').click({ timeout: 2000 });
+  166 |       console.log('✅ Selected time slot: am - 9 am');
+  167 |       selectedTimeSlot = 'am - 9 am';
+  168 |       return { date: selectedDate, timeSlot: selectedTimeSlot };
+  169 |     } catch (e) {
+  170 |       console.log('⚠️ am - 9 am pattern not found');
+  171 |     }
+  172 | 
+  173 |     // Strategy 4: Try radio buttons for time slots
+  174 |     try {
+  175 |       const firstRadio = page.locator('label[class*="radio"], input[type="radio"]').first();
+  176 |       if (await firstRadio.isVisible({ timeout: 2000 })) {
+  177 |         await firstRadio.click();
+  178 |         console.log('✅ Selected first available time slot (radio button)');
+  179 |         selectedTimeSlot = 'first available';
+  180 |         return { date: selectedDate, timeSlot: selectedTimeSlot };
+  181 |       }
+  182 |     } catch (e) {
+  183 |       console.log('📝 No radio buttons found');
+  184 |     }
+  185 | 
+  186 |     // Strategy 5: Ultimate fallback - find any clickable element with time pattern
+  187 |     try {
+  188 |       const timePattern = page.locator('text=/\\d{1,2}.*\\d{1,2}.*(am|pm|AM|PM|Hrs)/i').first();
+  189 |       await timePattern.click({ timeout: 2000 });
+  190 |       console.log('✅ Selected time slot using pattern match');
+  191 |       selectedTimeSlot = 'pattern matched';
+  192 |       return { date: selectedDate, timeSlot: selectedTimeSlot };
+  193 |     } catch (e) {
+  194 |       console.log('⚠️ Could not select any time slot');
+  195 |     }
+  196 | 
+  197 |     console.log('📅 Date and time slot selection completed');
+  198 |     return {
+  199 |       date: selectedDate,
+  200 |       timeSlot: selectedTimeSlot || 'none (may be optional)'
+  201 |     };
+  202 | }
+  203 | 
+  204 | test("fnpDigital", async ({ page }) => {
+  205 |     await page.goto("https://www.fnp.com/digital-gifts-lp");
+  206 | 
+  207 |     // Wait for the personalization modal to appear and enter the pincode
+  208 |     await page.getByTestId('locationLock').getByTestId('input_field').click();
+  209 |     await page.getByTestId('locationLock').getByTestId('input_field').fill('110018');
+  210 |     await page.locator('#location-and-country-popup').getByRole('button', { name: 'button' }).click();
+  211 | 
+  212 |     // Handle the "Stay Updated" popup by clicking "No, Thanks" if it appears
+  213 |     try {
+  214 |       await page.getByRole('button', { name: 'No, Thanks' }).click({ timeout: 5000 });
+  215 |     } catch (e) {
+  216 |       // popup did not appear — continue
+  217 |     }
+  218 | 
+```

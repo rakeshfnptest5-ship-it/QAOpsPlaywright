@@ -210,7 +210,11 @@ test("fnpDigital", async ({ page }) => {
     await page.locator('#location-and-country-popup').getByRole('button', { name: 'button' }).click();
 
     // Handle the "Stay Updated" popup by clicking "No, Thanks" if it appears
-    await page.getByRole('button', { name: 'No, Thanks' }).click();
+    try {
+      await page.getByRole('button', { name: 'No, Thanks' }).click({ timeout: 5000 });
+    } catch (e) {
+      // popup did not appear — continue
+    }
 
     // Wait for products to load and click on the specific product: Guitarist on Video Call
     await page.waitForLoadState('networkidle');
